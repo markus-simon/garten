@@ -1,0 +1,60 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('vendor/foundation/css/foundation.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/datatables/datatables.min.css') }}" />
+{% endblock %}
+
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('vendor/foundation/js/jquery.js') }}" ></script>
+    <script type="text/javascript" src="{{ asset('vendor/foundation/js/foundation.min.js') }}" ></script>
+    <script type="text/javascript" src="{{ asset('vendor/datatables/datatables.min.js') }}"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(document).foundation();
+
+            $(".menu a").click(function() {
+                var target = $(this).data("url");
+                $.ajax({url: "admin/" + target, success: function(result) {
+                    $("#content").html(JSON.parse(result));
+                }});
+            })
+        });
+    </script>
+{% endblock %}
+
+{% block body %}
+
+    <div id="flash"></div>
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <ul class="vertical menu">
+            <li><a data-url="dashboard" href="#">Dashboard</a></li>
+            <li><a data-url="cms"       href="#">CMS</a></li>
+            <li><a data-url="user"      href="#">User</a></li>
+            <li><a data-url="config"    href="#">Config</a></li>
+        </ul>
+    </div>
+
+{#
+    $("#offCanvas").foundation("close", $("#offCanvas"));
+#}
+    {% block admin_body %}
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div id="header">
+                <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+                Gartenschau.de
+            </div>
+
+            <div id="wrapper" class="grid-x grid-padding-x grid-padding-y">
+                <div id="content" class="medium-10 cell">
+                    Willkommen
+                </div>
+                <div id="fake-sidebar" class="medium-2 cell off-canvas-content" data-off-canvas-content>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et ac
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}

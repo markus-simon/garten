@@ -1,0 +1,56 @@
+<div class="grid-x grid-padding-x grid-padding-y">
+    <div class="medium-11 cell">
+        <h1>CMS</h1>
+    </div>
+    <div class="medium-1 cell text-right">
+        <button data-url="add" type="button" class="button add">Add</button>
+    </div>
+</div>
+<script>
+    $(".add, a.edit, a.delete").click(function() {
+        var type = $(this).data("url");
+        var id     = $(this).parent().parent().data("id");
+        $.ajax({type: "POST", url: "admin/cms", dataType: "json", data: {type: type, id: id}, success: function(result) {
+            $("#content").html(JSON.parse(result));
+        }});
+    });
+
+
+    $('#grid').DataTable({
+        dom: "<'grid-x grid-padding-xy'<'small-6 cell'l><'small-6 cell'f>r>" + "t" + "<'grid-x grid-padding-xy'<'small-6 cell'i><'small-6 cell'p>>",
+        order: [[2 , "asc" ]],
+        columnDefs: [{
+             targets: [3],
+             orderable: false
+         }]
+    });
+
+</script>
+
+<table id="grid" style="width:100%">
+    <thead>
+        <tr>
+            <th class="text-left">Title</th>
+            <th class="text-left">Username</th>
+            <th class="text-left">Created at</th>
+            <th class="text-left">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for cms in cmss %}
+            <tr data-id="{{ cms.id|e }}">
+                <td>{{ cms.title|e }}</td>
+                <td>{{ cms.username|e }}</td>
+                <td>{{ cms.createdAt.date|e }}</td>
+                <td>
+                    <a class="edit"   data-url="edit"   href="#">Edit</a> |
+                    <a class="delete" data-url="delete" href="#">Delete</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">No cmss found! Do something about it!!</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

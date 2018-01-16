@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a09de8d8-1d60-4dcb-9616-0d668b11359b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/814948b3-529b-4825-95a8-0cbcb3476a48.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/c45868c1-bae2-47fb-8239-b72313c2f380.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/swf/flashExport.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/f28dd09633c50d1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/order.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/._all-f6-templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/leadposition.odt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/garten.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/bundles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/services.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/card-flex-article/card-flex-article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/card-flex-article/card-flex-article.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/image-hover-wrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/image-hover-wrapper.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/neat-article-container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/neat-article-container.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-pointed/pagination-pointed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-pointed/pagination-pointed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-responsive-numbers/pagination-responsive-numbers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-responsive-numbers/pagination-responsive-numbers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/quote-inline/quote-inline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/quote-inline/quote-inline.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/read-more/read-more.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/read-more/read-more.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-footer/responsive-blog-footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-footer/responsive-blog-footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-post/responsive-blog-post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-post/responsive-blog-post.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/responsive-nav-social.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/responsive-nav-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-social-media-section/responsive-social-media-section.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-social-media-section/responsive-social-media-section.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/tag-cloud/tag-cloud.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/tag-cloud/tag-cloud.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/dataTables.autoFill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/dataTables.autoFill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/common.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.colVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.colVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.flash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.html5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.print.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/dataTables.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/dataTables.buttons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/js/dataTables.colReorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/js/dataTables.colReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/JSZip-2.5.0/jszip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/JSZip-2.5.0/jszip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/js/dataTables.keyTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/js/dataTables.keyTable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.semanticui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.semanticui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/js/dataTables.scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/js/dataTables.scroller.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.semanticui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.semanticui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/js/dataTables.select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/js/dataTables.select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/pdfmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/pdfmake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/vfs_fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/vendor/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/vendor/what-input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._agency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._blog-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._ecommerce.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._marketing-site.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._news-magazine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._portfolio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._product-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._real-estate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/agency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/blog-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/ecommerce.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/marketing-site.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/news-magazine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/portfolio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/product-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/real-estate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/Admin/MainController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Cms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Manufacturer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Cms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20180115104648.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/cms.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/cms/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/config.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/dashboard.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/flash.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/main.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/user.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/user/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/translations/.gitignore" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="console" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/console">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3286" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gartenschau" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a09de8d8-1d60-4dcb-9616-0d668b11359b" name="Default" comment="" />
+      <created>1516106112530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516106112530</updated>
+      <workItem from="1516106113810" duration="515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="515000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3286" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

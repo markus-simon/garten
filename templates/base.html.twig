@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            {% block title %}Gartenschau!{% endblock %}
+        </title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('vendor/foundation/css/foundation.min.css') }}" />
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+
+            {% include "nav.html.twig" %}
+
+            <div class="callout large primary">
+                <div class="row column text-center">
+                    <h1>Gartenschau</h1>
+                    <h2 class="subheader">jetzt neu mit verbesserter Rezeptur!!</h2>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div id="wrapper" class="grid-x">
+                    <!-- We can now combine rows and columns when there's only one column in that row -->
+                    <div class="cell">
+
+
+
+
+                        {% for cmsEntry in cmsEntries %}
+
+
+                            <div class="blog-post">
+                                <h3>{{ cmsEntry.title|e }}<small> {{ cmsEntry.createdAt.date|e  }}</small></h3>
+                                <img class="thumbnail" src="http://placehold.it/850x350?color=red">
+                                <p>{{ cmsEntry.content|e }}</p>
+                                <div class="callout">
+                                    <ul class="menu simple">
+                                        <li><a href="#">Author: {{ cmsEntry.username|e }}</a></li>
+                                        <li><a href="#">Comments: 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        {% else %}
+                            <tr>
+                                <td colspan="4">No Content found! Komm später wieder. Bitte ....</td>
+                            </tr>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+        {% endblock %}
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('vendor/foundation/js/jquery.js') }}" ></script>
+            <script type="text/javascript" src="{{ asset('vendor/foundation/js/foundation.min.js') }}" ></script>
+            <script type="text/javascript">
+                $(function() {
+                    $(document).foundation();
+                });
+            </script>
+        {% endblock %}
+    </body>
+</html>

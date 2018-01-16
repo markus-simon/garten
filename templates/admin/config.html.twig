@@ -1,0 +1,24 @@
+<h1>CONFIG</h1>
+
+<script>
+    $(function() {
+        $("form[name='config']").on("submit", function(e) {
+
+            e.preventDefault();
+
+            var form = $('form[name="config"]').serializeArray();
+            $.ajax({type: "post", data: form, url: "admin/config", success: function(result) {
+                var $modal = $('#flash');
+                $modal.html(JSON.parse(result));
+                var popup = new Foundation.Reveal($('#animatedModal10'));
+                popup.open();
+                setTimeout(function() {
+                    popup.close();
+                }, 3000);
+            }});
+        });
+    });
+</script>
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+{{ form_end(form) }}

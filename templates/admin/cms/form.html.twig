@@ -1,0 +1,16 @@
+<script>
+    $(function() {
+        $("form[name='cms']").on("submit", function(e) {
+
+            e.preventDefault();
+
+            var form = $('form[name="cms"]').serializeArray();
+            $.ajax({type: "post", data: form, url: "admin/cms", success: function(result) {
+                $("#content").html(JSON.parse(result));
+            }});
+        });
+    });
+</script>
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+{{ form_end(form) }}

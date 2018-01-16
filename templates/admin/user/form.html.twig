@@ -1,0 +1,17 @@
+<script>
+    $(function() {
+        $("form[name='user']").on("submit", function(e) {
+
+            e.preventDefault();
+
+            var form = $('form[name="user"]').serializeArray();
+            console.log(form);
+            $.ajax({type: "post", data: form, url: "admin/user", success: function(result) {
+                $("#content").html(JSON.parse(result));
+            }});
+        });
+    });
+</script>
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+{{ form_end(form) }}

@@ -1,0 +1,19 @@
+#header {
+    background-color: #8dbcc6;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+#sidebar {
+    height: 100vh;
+    background-color: #3980c6;
+}
+
+.reveal {
+    background-color: #50a835;
+    color: #fdf0ff;
+}
+
+.close-button {
+    color: #fdf0ff;
+}
