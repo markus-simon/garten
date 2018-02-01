@@ -66,6 +66,6 @@ class AuthenticationHandler implements AuthenticationSuccessHandlerInterface, Au
             $exception->getMessage()
         );
         $flash    = $this->container->get('twig')->render('flash.html.twig');
-        return new JsonResponse(json_encode($flash));
+        return new JsonResponse(json_encode($flash), 403);
     }
 }

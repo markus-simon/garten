@@ -9,12 +9,18 @@
     background-color: #3980c6;
 }
 
-.callout.primary {
-    background-color: #12fa22;
+.menu.vertical {
+    margin-top: 70px;
 }
 
+.position-left {
+    width:100%;
+    max-width:250px;
+}
 
-
+.menu a {
+    outline: none;
+}
 
 #seed-chart {
     /*
@@ -175,24 +181,24 @@ body {
     color: #4B4B4B;
 }
 
-/* DATE of release */
 .blog-card h5 {
     position: absolute;
     left: 30px;
-    bottom: -120px;
+    bottom: 10px;
     font-size: 6rem;
     color: #C3C3C3;
+    font-weight: bold;
 }
 
 .blog-card h6 {
     position: absolute;
     left: 30px;
-    bottom: -55px;
+    bottom: 0;
     font-size: 2rem;
     color: #C3C3C3;
+    font-weight: bold;
 }
 
-/* Those futur buttons */
 .blog-card ul {
     margin-left: 250px;
 }
@@ -225,3 +231,66 @@ body {
 .fa-arrow-down:before {
     content: "\f063";
 }
+
+
+
+
+
+
+
+.burger {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    color: white;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 4px solid currentColor;
+    width: 28px;
+    transition: border-bottom 1s ease-in-out;
+    -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burger::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.burger:before {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger.open {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger.open:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger.open:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+

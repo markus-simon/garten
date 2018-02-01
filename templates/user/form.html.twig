@@ -4,14 +4,33 @@
         popup.open();
         $("form[name='user']").on("submit", function(e) {
             e.preventDefault();
-            var target = "login";
-            var form = $(this).serializeArray();
-            $.ajax({type: "post", data: form, url: target, success: function(result) {
+            let target = "login";
+            let form = $(this).serializeArray();
+            $.ajax({
+                method: "POST",
+                url: target,
+                data: form,
+                dataType: "json"
+            })
+            .done(function(result) {
+                $("#flash").html(JSON.parse(result));
                 $("#login").text("Logout");
                 $("#login").data("url", "logout");
                 $(".top-bar-right ul").prepend('<li class="menu-text text-right"><button type="button" class="button" data-toggle="offCanvasRight">Actions</button></li>');
                 popup.close();
-            }});
+            })
+            .fail(function(result) {
+                $("#flash").html(JSON.parse(result.responseJSON));
+            })
+
+/*            $.ajax({type: "post", dataType: "json", data: form, url: target, success: function(result) {
+                console.log(result);
+                $("#flash").html(JSON.parse(result));
+                $("#login").text("Logout");
+                $("#login").data("url", "logout");
+                $(".top-bar-right ul").prepend('<li class="menu-text text-right"><button type="button" class="button" data-toggle="offCanvasRight">Actions</button></li>');
+                popup.close();
+            }});*/
         });
     });
 </script>

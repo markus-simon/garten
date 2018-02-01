@@ -24,12 +24,12 @@ CKEDITOR.addTemplates( 'default', {
         '</div>' +
         '<h5 class="day"></h5>' +
         '<h6 class="month"></h6>' +
-        '<ul>' +
+/*        '<ul>' +
         '<li><i class="fa fa-eye fa-2x"></i></li>' +
         '<li><i class="fa fa-heart-o fa-2x"></i></li>' +
         '<li><i class="fa fa-envelope-o fa-2x"></i></li>' +
         '<li><i class="fa fa-share-alt fa-2x"></i></li>' +
-        '</ul>' +
+        '</ul>' +*/
         '<div class="blog-card-fab"><i class="fa fa-arrow-down fa-3x"></i></div>' +
         '</div>'
     },{

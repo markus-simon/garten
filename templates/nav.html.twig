@@ -1,6 +1,11 @@
 {% block javascripts %}
     <script>
 
+        $(document).on("click", ".burger", function() {
+            $(this).toggleClass('open');
+            $(this).data("toggle", "offCanvasLeft");
+        });
+
         $(document).on("click", ".top-bar a", function() {
             target = $(this).data("url");
             var type   = $(this).data("type");
@@ -47,15 +52,8 @@
 
         <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
 
+
             <div class="top-bar-left">
-                <ul class="menu">
-                    <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
-                    <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
-                    <li class="menu-text"><a data-type="full" data-url="log" href="#">Log</a></li>
-                    <li class="menu-text"><a data-type="full" data-url="event" href="#">Events</a></li>
-                    <li class="menu-text"><a data-type="full" data-url="plant" href="#">Aussaat</a></li>
-                    <li class="menu-text"><a data-type="full" data-url="40x" href="#">Ups</a></li>
-                </ul>
             </div>
 
             <div class="top-bar-right">
@@ -74,8 +72,6 @@
                     </li>
                 </ul>
             </div>
-
-
         </div>
 
         <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas>
@@ -85,6 +81,21 @@
                 </li>
             </ul>
         </div>
+
+        <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+            <ul class="vertical menu">
+                <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
+                <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
+                <li class="menu-text"><a data-type="full" data-url="log" href="#">Log</a></li>
+                <li class="menu-text"><a data-type="full" data-url="event" href="#">Events</a></li>
+                <li class="menu-text"><a data-type="full" data-url="plant" href="#">Aussaat</a></li>
+                <li class="menu-text"><a data-type="full" data-url="40x" href="#">Ups</a></li>
+            </ul>
+        </div>
+
+
+        <button class="burger" data-toggle="offCanvasLeft"></button>
+
     </div>
 {% endblock %}
 
