@@ -2,360 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a09de8d8-1d60-4dcb-9616-0d668b11359b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/814948b3-529b-4825-95a8-0cbcb3476a48.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/c45868c1-bae2-47fb-8239-b72313c2f380.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/swf/flashExport.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/f28dd09633c50d1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/order.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/._all-f6-templates" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/leadposition.odt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/garten.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/services.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/card-flex-article/card-flex-article.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/card-flex-article/card-flex-article.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/featured-blog-posts-panel/featured-blog-posts-panel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/image-hover-wrapper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/image-hover-wrapper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/image-hover-wrapper/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/neat-article-container.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/neat-article-container/neat-article-container.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-pointed/pagination-pointed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-pointed/pagination-pointed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-responsive-numbers/pagination-responsive-numbers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/pagination-responsive-numbers/pagination-responsive-numbers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/quote-inline/quote-inline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/quote-inline/quote-inline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/read-more/read-more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/read-more/read-more.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-footer/responsive-blog-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-footer/responsive-blog-footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-post/responsive-blog-post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-blog-post/responsive-blog-post.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/responsive-nav-social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-nav-social/responsive-nav-social.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-social-media-section/responsive-social-media-section.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/responsive-social-media-section/responsive-social-media-section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/tag-cloud/tag-cloud.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/blog/blog/tag-cloud/tag-cloud.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/css/autoFill.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.semanticui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/autoFill.semanticui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/dataTables.autoFill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/AutoFill-2.2.2/js/dataTables.autoFill.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/buttons.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/css/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.colVis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.colVis.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.flash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.html5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.jqueryui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.print.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.print.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.semanticui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/buttons.semanticui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/dataTables.buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Buttons-1.5.1/js/dataTables.buttons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/css/colReorder.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/js/dataTables.colReorder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/ColReorder-1.4.1/js/dataTables.colReorder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/dataTables.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/jquery.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/css/jquery.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.jqueryui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.semanticui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/dataTables.semanticui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/DataTables-1.10.16/js/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/css/fixedColumns.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedColumns-3.2.4/js/dataTables.fixedColumns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/css/fixedHeader.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/FixedHeader-3.1.3/js/dataTables.fixedHeader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/JSZip-2.5.0/jszip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/JSZip-2.5.0/jszip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/css/keyTable.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/js/dataTables.keyTable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/KeyTable-2.3.2/js/dataTables.keyTable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/css/responsive.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/dataTables.responsive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/dataTables.responsive.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.jqueryui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.semanticui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Responsive-2.2.1/js/responsive.semanticui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/css/rowGroup.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowGroup-1.0.2/js/dataTables.rowGroup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/css/rowReorder.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/RowReorder-1.2.3/js/dataTables.rowReorder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/css/scroller.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/js/dataTables.scroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Scroller-1.4.3/js/dataTables.scroller.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/css/select.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/js/dataTables.select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/Select-1.2.4/js/dataTables.select.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/datatables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/pdfmake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/pdfmake.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/datatables/pdfmake-0.1.32/vfs_fonts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/css/foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/vendor/foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/foundation/js/vendor/what-input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._agency.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._blog-simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._ecommerce.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._marketing-site.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._news-magazine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._portfolio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._product-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/__MACOSX/all-f6-templates/._real-estate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/agency.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/blog-simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/ecommerce.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/marketing-site.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/news-magazine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/portfolio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/product-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/template/all-f6-templates/real-estate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/Admin/MainController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Cms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Manufacturer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Cms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/Version20180115104648.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/cms.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/cms/form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/config.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/dashboard.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/flash.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/main.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/user.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/user/form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/translations/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/emmes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ratchet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/ApiController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Plant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Event/SaveEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Plant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handler/AccessDeniedHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handler/AuthenticationHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handler/EntryPointHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handler/LogoutHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Listener/Api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Listener/SaveEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Service/Run.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Service/Websocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/cms.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/cms/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/event.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/event/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/flash.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/log.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/logout/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/map.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/plant.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/plant/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/user/form.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/814948b3-529b-4825-95a8-0cbcb3476a48.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/c45868c1-bae2-47fb-8239-b72313c2f380.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/f28dd09633c50d1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/order.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/security.yaml" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.yaml" afterPath="$PROJECT_DIR$/config/services.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/Admin/MainController.php" afterPath="$PROJECT_DIR$/src/Controller/Admin/MainController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Cms.php" afterPath="$PROJECT_DIR$/src/Entity/Cms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/User.php" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/Cms.php" afterPath="$PROJECT_DIR$/src/Form/Cms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/User.php" afterPath="$PROJECT_DIR$/src/Form/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/flash.html.twig" afterPath="$PROJECT_DIR$/templates/admin/flash.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nav.html.twig" afterPath="$PROJECT_DIR$/templates/nav.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -364,29 +73,203 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="garten" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="console" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/console">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="243">
+              <caret line="109" column="11" lean-forward="true" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/default.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <marker date="1517498924408" expanded="true" signature="2232:2250" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="2643:2653" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="2707:2716" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="2811:2820" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="3326:3336" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="3444:3468" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="3546:3568" ph="..." />
+                <marker date="1517498924408" expanded="true" signature="3684:3690" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3716:3722" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3748:3754" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3823:3829" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3855:3861" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3887:3893" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3962:3968" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="3994:4000" ph=" " />
+                <marker date="1517498924408" expanded="true" signature="4026:4032" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak.2/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cms.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.de.xlf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/messages.de.xlf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="1014" column="13" lean-forward="false" selection-start-line="1014" selection-start-column="13" selection-end-line="1014" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak/plugins/templates/templates/default.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="27" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="4" />
+              <folding>
+                <marker date="1517495222782" expanded="true" signature="2155:2173" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="2566:2576" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="2630:2639" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="2734:2743" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="3249:3259" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="3367:3391" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="3469:3491" ph="..." />
+                <marker date="1517495222782" expanded="true" signature="3607:3613" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3639:3645" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3671:3677" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3746:3752" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3778:3784" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3810:3816" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3885:3891" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3917:3923" ph=" " />
+                <marker date="1517495222782" expanded="true" signature="3949:3955" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>auto_generate_proxy_classes</find>
+      <find>dir</find>
+      <find>folder</find>
+      <find>paths</find>
+      <find>This form should not contain extra fields</find>
+      <find>This form should not contain extra fiel</find>
+      <find>$type</find>
+      <find>\{\#\n\&lt;script\&gt;\n    var popup \= new Foundation\.Reveal\(\$\(\'\#animatedModal10\'\)\)\;\n    popup\.open\(\)\;\n    setTimeout\(function\(\) \{\n        popup\.close\(\)\;\n    \}\, 3000\)\;\n\&lt;\/script\&gt;\#\}\n</find>
+      <find>kernel.response</find>
+      <find>kernel.controller_arguments</find>
+      <find>flash</find>
+      <find>doctrine.ensure_production_settings_command</find>
+      <find>controller.service_arguments</find>
+      <find>XDebug extension detected</find>
+      <find>8843</find>
+      <find>getResponse</find>
+      <find>login_path</find>
+      <find>bad credentials</find>
+      <find>DefaultAuthenticationSuccessHandler</find>
+      <find>HttpUtils</find>
+      <find>curren</find>
+      <find>flower</find>
+      <find>event</find>
+      <find>datetime</find>
+      <find>length</find>
+      <find>80</find>
+      <find>height =</find>
+      <find>class=&quot;card</find>
+      <find>font-awesome/4.7.0</find>
+      <find>awes</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TIMESTAMP</replace>
+      <replace>class=&quot;cardd</replace>
+      <replace>class=&quot;blog-card</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/vendor/symfony/twig-bundle</dir>
+      <dir>$PROJECT_DIR$/vendor/twig</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/templates/user</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -394,21 +277,83 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Ratchet.php" />
+        <option value="$PROJECT_DIR$/src/Service/Run.php" />
+        <option value="$PROJECT_DIR$/templates/admin/flash.html.twig" />
+        <option value="$PROJECT_DIR$/templates/login.html.twig" />
+        <option value="$PROJECT_DIR$/templates/user.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/MainController.php" />
+        <option value="$PROJECT_DIR$/src/Handler/LoginSuccessHandler.php" />
+        <option value="$PROJECT_DIR$/src/Handler/AccessDeniedHandler.php" />
+        <option value="$PROJECT_DIR$/templates/admin/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Form/User.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/security/Http/Logout/DefaultLogoutSuccessHandler.php" />
+        <option value="$PROJECT_DIR$/templates/logout/form.htm.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Flower.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20180126021400.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20180126194338.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20180126200706.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20180126201019.php" />
+        <option value="$PROJECT_DIR$/line.html" />
+        <option value="$PROJECT_DIR$/public/line.html" />
+        <option value="$PROJECT_DIR$/src/Form/Plant.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Plant.php" />
+        <option value="$PROJECT_DIR$/src/Handler/EntryPointHandler.php" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/src/Handler/AuthenticationHandler.php" />
+        <option value="$PROJECT_DIR$/templates/flash.html.twig" />
+        <option value="$PROJECT_DIR$/templates/event/form.html.twig" />
+        <option value="$PROJECT_DIR$/var/cache/dev/twig/70/708ed11c01133bc8a1aaccf2a9518253cc3b089e64b84ae6ad8eef8504dff8f0.php" />
+        <option value="$PROJECT_DIR$/src/Handler/LogoutHandler.php" />
+        <option value="$PROJECT_DIR$/templates/user/form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/logout/form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/event.html.twig" />
+        <option value="$PROJECT_DIR$/templates/plant.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/Cms.php" />
+        <option value="$PROJECT_DIR$/templates/plant/form.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/blog.html" />
+        <option value="$PROJECT_DIR$/templates/cms/form.html.twig" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/dialogs/templates.css" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor/plugins/basewidget/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/nav.html.twig" />
+        <option value="$USER_HOME$/eth.php" />
+        <option value="$PROJECT_DIR$/eth.php" />
+        <option value="$PROJECT_DIR$/translations/messages.de.xlf" />
+        <option value="$PROJECT_DIR$/templates/cms.html.twig" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor.bak/plugins/templates/templates/default.js" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/default.js" />
+        <option value="$PROJECT_DIR$/public/css/styles.css" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="gartenschau.de" id="001dc686-b8f5-4b4d-923a-25adb8cd6eb2" name="gartenschau.de" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3286" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="3497" />
+    <option name="width" value="1366" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -437,12 +382,55 @@
             <path>
               <item name="garten" type="b2602c69:ProjectViewProjectNode" />
               <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ckeditor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ckeditor.bak" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ckeditor.bak.2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="garten" type="b2602c69:ProjectViewProjectNode" />
               <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="garten" type="b2602c69:ProjectViewProjectNode" />
+              <item name="garten" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="translations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -453,12 +441,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gartenschau" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../grav" />
+    <property name="SearchEverywhereHistoryKey" value="displayWithErrorHandling&#9;null&#9;null&#10;RoleVoter&#9;null&#9;null&#10;AuthenticationHandler&#9;FILE&#9;file:///srv/http/symfony/garten/vendor/symfony/security/Http/Authentication/SimpleAuthenticationHandler.php&#10;Symfony\Component\HttpKernel\EventListener\ResponseListener&#9;null&#9;null" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/vendor/ckeditor/plugins/basewidget/css" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/src/Form" />
+      <recent name="$PROJECT_DIR$/src/Entity" />
+      <recent name="$PROJECT_DIR$/src/Handler" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,6 +477,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a09de8d8-1d60-4dcb-9616-0d668b11359b" name="Default" comment="" />
@@ -483,33 +487,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516106112530</updated>
-      <workItem from="1516106113810" duration="515000" />
+      <workItem from="1516106113810" duration="49886000" />
+      <workItem from="1516614308176" duration="36330000" />
+      <workItem from="1516788518634" duration="24283000" />
+      <workItem from="1516879417224" duration="34302000" />
+      <workItem from="1517218418084" duration="19661000" />
+      <workItem from="1517258142707" duration="36928000" />
+      <workItem from="1517428770624" duration="25923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515000" />
+    <option name="totallyTimeSpent" value="227313000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3286" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="3282" y="0" width="1928" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1638207" sideWeight="0.49578947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34" sideWeight="0.5093317" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26360726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46736842" sideWeight="0.49066827" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11366062" sideWeight="0.50421053" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -520,22 +539,551 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/twig-bundle/CacheWarmer/TemplateCacheCacheWarmer.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/twig-bundle/CacheWarmer/TemplateCacheCacheWarmer.php</url>
+          <line>113</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/twig-bundle/Loader/FilesystemLoader.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/Event.php</url>
+          <line>109</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/ApiController.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/form/FormInterface.php</url>
+          <line>193</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/Admin/MainController.php</url>
+          <line>138</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/Admin/MainController.php</url>
+          <line>150</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/security-bundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Form/UserLoginType.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/security/Core/Authentication/Provider/UserAuthenticationProvider.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/security/Http/Authentication/SimpleAuthenticationHandler.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/security/Http/Authentication/SimpleAuthenticationHandler.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/security/Http/EntryPoint/FormAuthenticationEntryPoint.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/User.php</url>
+          <line>151</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Handler/AccessDeniedHandler.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/Admin/MainController.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Handler/EntryPointHandler.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Handler/EntryPointHandler.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Handler/EntryPointHandler.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/IndexController.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="354" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="eth.php">
+        <watch expression="$dom-&gt;getElementById('ep-price')-&gt;plaintext" language="PHP" />
+        <watch expression="$dom-&gt;find(&quot;#ep-price&quot;)" language="PHP" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/console">
+    <entry file="file://$PROJECT_DIR$/src/Handler/EntryPointHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Handler/AuthenticationHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="633">
+          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/config.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/flash.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/twig/70/708ed11c01133bc8a1aaccf2a9518253cc3b089e64b84ae6ad8eef8504dff8f0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler/LogoutHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/logout/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handler/AccessDeniedHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Extension/Core/Type/HiddenType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Extension/Core/Type/TextareaType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/plant.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="77" column="9" lean-forward="false" selection-start-line="76" selection-start-column="43" selection-end-line="77" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/event.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/FormInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flash.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12376">
+          <caret line="744" column="5" lean-forward="false" selection-start-line="744" selection-start-column="5" selection-end-line="744" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/event/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/plant/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/images/template1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="350" column="434" lean-forward="false" selection-start-line="350" selection-start-column="434" selection-end-line="350" selection-end-column="434" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/basewidget/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="147" column="46" lean-forward="true" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cms/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#1118#1125#1#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="112" column="40" lean-forward="false" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+          <folding>
+            <element signature="e#34#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/dialogs/templates.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/basewidget/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="215" column="16" lean-forward="false" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Plant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/default.js.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/blog/blog/responsive-social-media-section/responsive-social-media-section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nav.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/eth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="1014" column="13" lean-forward="false" selection-start-line="1014" selection-start-column="13" selection-end-line="1014" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/messages.de.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cms.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak/plugins/templates/templates/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="4" />
+          <folding>
+            <marker date="1517495222782" expanded="true" signature="2155:2173" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="2566:2576" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="2630:2639" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="2734:2743" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="3249:3259" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="3367:3391" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="3469:3491" ph="..." />
+            <marker date="1517495222782" expanded="true" signature="3607:3613" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3639:3645" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3671:3677" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3746:3752" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3778:3784" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3810:3816" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3885:3891" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3917:3923" ph=" " />
+            <marker date="1517495222782" expanded="true" signature="3949:3955" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/simage/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak.2/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor.bak/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/ckeditor/plugins/templates/templates/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1517498924408" expanded="true" signature="2232:2250" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="2643:2653" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="2707:2716" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="2811:2820" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="3326:3336" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="3444:3468" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="3546:3568" ph="..." />
+            <marker date="1517498924408" expanded="true" signature="3684:3690" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3716:3722" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3748:3754" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3823:3829" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3855:3861" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3887:3893" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3962:3968" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="3994:4000" ph=" " />
+            <marker date="1517498924408" expanded="true" signature="4026:4032" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="109" column="11" lean-forward="true" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="12" />
           <folding />
         </state>
       </provider>

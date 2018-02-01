@@ -1,0 +1,19 @@
+{% for entry in data %}
+
+
+    <div id="blog-id-{{ entry.id }}" class="blog-post">
+        <div class="entry-content">{{ entry.content|raw }}</div>
+        <script>
+            $("#blog-id-{{ entry.id }} .title").text("{{ entry.title }}");
+            $("#blog-id-{{ entry.id }} .day").text("{{ entry.createdAt.date|date('d') }}");
+            var month = "{{ entry.createdAt.date|date('F') }}";
+            $("#blog-id-{{ entry.id }} .month").text(
+                {% trans %}month{% endtrans %}
+            );
+        </script>
+    </div>
+{% else %}
+    <div>
+        <p>No Content found! Komm später wieder. Bitte ....</p>
+    </div>
+{% endfor %}

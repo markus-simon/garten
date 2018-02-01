@@ -12,6 +12,9 @@ use Symfony\Component\Security\Core\User\UserInterface;
  */
 class Cms
 {
+
+    const ENTITY_NAME = "cms";
+
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")

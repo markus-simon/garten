@@ -1,0 +1,26 @@
+<script>
+    $(function() {
+        var popup = new Foundation.Reveal($('#animatedModalForm'));
+        popup.open();
+        $("form[name='event']").on("submit", function(e) {
+            e.preventDefault();
+            var target = $(this).attr('action');
+            var form   = $(this).serializeArray();
+            $.ajax({type: "post", data: form, url: target, success: function(result) {
+                $('#content').html(result);
+                popup.close();
+            }});
+        });
+    });
+</script>
+
+<div class="reveal" id="animatedModalForm" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+    <div class="flash-notice">
+        {{ form_start(form) }}
+            {{ form_widget(form) }}
+        {{ form_end(form) }}
+    </div>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>

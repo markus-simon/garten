@@ -1,0 +1,24 @@
+EVENTS
+
+<script>
+/*    $(document).off("click", "#add");
+    $(document).on("click", "#add", function() {
+        var target = $(this).data("url");
+        var type   = $(this).data("type");
+        $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
+            $("#modal").html(result);
+        }});
+    });*/
+</script>
+
+<ul>
+    {% for entry in data %}
+        <li class="event-entry">
+            {{ entry.date.date|date("Y-m-d H:i:s")|e }}: {{ entry.title|e }}
+        </li>
+    {% else %}
+        <li>
+            <p>No Events found! Komm später wieder. Bitte ....</p>
+        </li>
+    {% endfor %}
+</ul>

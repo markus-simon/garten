@@ -123,17 +123,33 @@ class MainController extends AbstractController
             }
             $form = $this->createForm(\App\Form\User::class, $entry, array('action' => 'admin/user'));
             $form->handleRequest($request);
-            if ($form->isSubmitted() && $form->isValid()) {
-                $password = $passwordEncoder->encodePassword($entry, $entry->getPlainPassword());
-                $entry->setPassword($password);
-                $this->em->persist($entry);
-                $this->em->flush();
-                $this->em->refresh($entry);
-                $users = $userEntity->findAll();
-                $content = $this->render('admin/user.html.twig', [
-                    'users' => $users,
-                ]);
-                return new JsonResponse(json_encode($content->getContent()));
+            if ($form->isSubmitted()) {
+                if ($form->isValid()) {
+                    $password = $passwordEncoder->encodePassword($entry, $entry->getPlainPassword());
+                    $entry->setPassword($password);
+                    $this->em->persist($entry);
+                    $this->em->flush();
+                    $this->em->refresh($entry);
+                    $users = $userEntity->findAll();
+                    $content = $this->render('admin/user.html.twig', [
+                        'users' => $users,
+                    ]);
+                    return new JsonResponse(json_encode($content->getContent()));
+                } else {
+                    $errors = $form->getErrors(true);
+                    foreach ($errors as $error) {
+                        $this->addFlash(
+                            'error',
+                            $error->getMessage()
+                        );
+                    }
+                    $content = $this->render('admin/user/form.html.twig', [
+/*                        'cmsEntry' => $entry,*/
+                        'form'     => $form->createView()
+                    ]);
+                    $flash    = $this->render('flash.html.twig');
+                    return new JsonResponse(json_encode($content->getContent() . $flash->getContent()));
+                }
             }
             if ($type == "edit" || $type == "add") {
                 $content = $this->render('admin/user/form.html.twig', [
@@ -172,6 +188,50 @@ class MainController extends AbstractController
             $iterableResult = $q->iterate();
             foreach ($iterableResult as $row) {
                 ++$i;
+                $config = $row[0];
+                $config->setConfigValue(current($configs));
+                next($configs);
+            }
+            $this->em->flush();
+            $this->addFlash(
+                'notice',
+                'Your changes were saved!'
+            );
+            $content = $this->render('admin/flash.html.twig', [
+                'configs' => $configs,
+                'form' => $form->createView()
+            ]);
+            return new JsonResponse(json_encode($content->getContent()));
+
+        } else {
+            $content = $this->render('admin/config.html.twig', [
+                'configs' => $configs,
+                'form' => $form->createView()
+            ]);
+            return new JsonResponse(json_encode($content->getContent()));
+        }
+    }
+
+    /**
+     * @Route("/admin/navigation", name="navigation")
+     * @param Request $request
+     * @return JsonResponse
+     */
+    public function navigation(Request $request)
+    {
+        $configs = $this->getDoctrine()->getRepository(Config::class)->findAll();
+        $form    = $this->createForm(\App\Form\Config::class, $configs, array('action' => 'admin/config'));
+        $form->handleRequest($request);
+        if ($form->isSubmitted() && $form->isValid()) {
+            $configs = $request->request->get('config');
+
+            $i = 0;
+
+            $q = $this->em->createQuery('select u from App\Entity\Config u');
+            $iterableResult = $q->iterate();
+            foreach ($iterableResult as $row) {
+                ++$i;
+                /** @var Config $config */
                 $config = $row[0];
                 $config->setConfigValue(current($configs));
                 next($configs);

@@ -1,0 +1,25 @@
+<script>
+    $(function() {
+        var popup = new Foundation.Reveal($('#animatedModalForm'));
+        popup.open();
+        $("form[name='user']").on("submit", function(e) {
+            e.preventDefault();
+            //       var target = $(this).attr('action');
+            var target = "login";
+            var form = $(this).serializeArray();
+            $.ajax({type: "post", dataType: "json", data: form, url: target, success: function(result) {
+                $('#content').html(JSON.parse(result));
+                popup.close();
+            }});
+        });
+    });
+</script>
+
+<div class="reveal" id="animatedModalForm" data-close-on-click="false" data-close-on-esc="false" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+    {{ form_end(form) }}
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>

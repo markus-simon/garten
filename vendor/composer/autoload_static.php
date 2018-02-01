@@ -9,15 +9,99 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
+        '6b06ce8ccf69c43a60a1e48495a034c9' => __DIR__ . '/..' . '/react/promise-timer/src/functions.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
     );
 
-    public static $firstCharsPsr4 = array (
-        'Z' => true,
-        'T' => true,
-        'S' => true,
-        'P' => true,
-        'D' => true,
-        'A' => true,
+    public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\EventManager\\' => 18,
+            'Zend\\Code\\' => 10,
+        ),
+        'T' => 
+        array (
+            'Twig\\Extensions\\' => 16,
+            'Twig\\' => 5,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Flex\\' => 13,
+            'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Validator\\' => 28,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Security\\' => 27,
+            'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\PropertyAccess\\' => 33,
+            'Symfony\\Component\\OptionsResolver\\' => 34,
+            'Symfony\\Component\\Intl\\' => 23,
+            'Symfony\\Component\\Inflector\\' => 28,
+            'Symfony\\Component\\HttpKernel\\' => 29,
+            'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Symfony\\Component\\Form\\' => 23,
+            'Symfony\\Component\\Finder\\' => 25,
+            'Symfony\\Component\\Filesystem\\' => 29,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\Dotenv\\' => 25,
+            'Symfony\\Component\\DependencyInjection\\' => 38,
+            'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
+            'Symfony\\Component\\Cache\\' => 24,
+            'Symfony\\Component\\Asset\\' => 24,
+            'Symfony\\Bundle\\TwigBundle\\' => 26,
+            'Symfony\\Bundle\\SecurityBundle\\' => 30,
+            'Symfony\\Bundle\\MakerBundle\\' => 27,
+            'Symfony\\Bundle\\FrameworkBundle\\' => 31,
+            'Symfony\\Bridge\\Twig\\' => 20,
+            'Symfony\\Bridge\\Doctrine\\' => 24,
+            'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
+        ),
+        'R' => 
+        array (
+            'React\\Stream\\' => 13,
+            'React\\Socket\\' => 13,
+            'React\\Promise\\Timer\\' => 20,
+            'React\\Promise\\' => 14,
+            'React\\EventLoop\\' => 16,
+            'React\\Dns\\' => 10,
+            'React\\Cache\\' => 12,
+            'Ratchet\\RFC6455\\' => 16,
+            'Ratchet\\' => 8,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
+            'PackageVersions\\' => 16,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\ORM\\' => 13,
+            'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\DBAL\\Migrations\\' => 25,
+            'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
+            'Doctrine\\Common\\' => 16,
+            'Doctrine\\Bundle\\MigrationsBundle\\' => 33,
+            'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
+            'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
+        ),
+        'A' => 
+        array (
+            'App\\Tests\\' => 10,
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -28,6 +112,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         'Zend\\Code\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-code/src',
+        ),
+        'Twig\\Extensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/extensions/src',
         ),
         'Twig\\' => 
         array (
@@ -157,6 +245,42 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         array (
             0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle',
         ),
+        'React\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/stream/src',
+        ),
+        'React\\Socket\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/socket/src',
+        ),
+        'React\\Promise\\Timer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise-timer/src',
+        ),
+        'React\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
+        'React\\EventLoop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/event-loop/src',
+        ),
+        'React\\Dns\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/dns/src',
+        ),
+        'React\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/cache/src',
+        ),
+        'Ratchet\\RFC6455\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ratchet/rfc6455/src',
+        ),
+        'Ratchet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cboden/ratchet/src/Ratchet',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -164,6 +288,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -176,6 +304,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
         'Doctrine\\ORM\\' => 
         array (
@@ -230,6 +362,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
     public static $prefixesPsr0 = array (
         'T' => 
         array (
+            'Twig_Extensions_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/extensions/lib',
+            ),
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
@@ -240,6 +376,13 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
             'ProxyManager\\' => 
             array (
                 0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
+            ),
+        ),
+        'E' => 
+        array (
+            'Evenement' => 
+            array (
+                0 => __DIR__ . '/..' . '/evenement/evenement/src',
             ),
         ),
         'D' => 
@@ -270,7 +413,7 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->firstCharsPsr4 = ComposerStaticInita864fc3084b89fbcfae600a357d3287b::$firstCharsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita864fc3084b89fbcfae600a357d3287b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInita864fc3084b89fbcfae600a357d3287b::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInita864fc3084b89fbcfae600a357d3287b::$prefixesPsr0;
             $loader->classMap = ComposerStaticInita864fc3084b89fbcfae600a357d3287b::$classMap;

@@ -1,10 +1,90 @@
-<div class="top-bar">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text">Blog</li>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-        </ul>
+{% block javascripts %}
+    <script>
+
+        $(document).on("click", ".top-bar a", function() {
+            target = $(this).data("url");
+            var type   = $(this).data("type");
+            $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
+                if (type === "full") {
+                    $("#content").html(result);
+                    $("#add").data("url", target);
+                } else {
+                    $("#modal").html(result);
+                }
+            }});
+        });
+
+        $(document).on("click", "#login", function() {
+            if ($(this).data("url") == "logout") {
+                $.ajax({type: "post", url: "logout", success: function(result) {
+                    $("#modal").html(result);
+                }});
+            }
+        });
+
+        $(document).off("click", "#add");
+        $(document).on("click", "#add", function() {
+            var target = $(this).data("url");
+            var type   = $(this).data("type");
+            $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
+                $("#modal").html(result);
+                CKEDITOR.dtd.$removeEmpty['i'] = false;
+                CKEDITOR.dtd.$removeEmpty['span'] = false;
+                CKEDITOR.dtd.$removeEmpty.i = 0;
+                CKEDITOR.dtd.$removeEmpty.span = 0;
+
+
+                CKEDITOR.replace("cms[content]");
+
+            }});
+        });
+
+    </script>
+{% endblock %}
+
+{% block menu %}
+    <div data-sticky-container class="top-bar">
+
+        <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
+                    <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
+                    <li class="menu-text"><a data-type="full" data-url="log" href="#">Log</a></li>
+                    <li class="menu-text"><a data-type="full" data-url="event" href="#">Events</a></li>
+                    <li class="menu-text"><a data-type="full" data-url="plant" href="#">Aussaat</a></li>
+                    <li class="menu-text"><a data-type="full" data-url="40x" href="#">Ups</a></li>
+                </ul>
+            </div>
+
+            <div class="top-bar-right">
+                <ul class="menu">
+                    {% if is_granted('ROLE_ADMIN') == true %}
+                        <li id="action-button" class="menu-text text-right">
+                            <button type="button" class="button" data-toggle="offCanvasRight">Actions</button>
+                        </li>
+                    {% endif %}
+                    <li class="menu-text text-right">
+                        {% if is_granted('ROLE_ADMIN') == false %}
+                            <a id="login" data-type="modal" data-url="user" href="#">Login</a>
+                        {% else  %}
+                            <a id="login" data-type="modal" data-url="logout" href="#">Logout</a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas>
+            <ul class="vertical">
+                <li>
+                    <button id="add" type="button" data-url="cms" data-type="modal" class="button">Add</button>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+{% endblock %}
+

@@ -1,0 +1,116 @@
+<script>
+/*    $(document).off("click", "#add");
+    $(document).on("click", "#add", function() {
+        var target = $(this).data("url");
+        var type   = $(this).data("type");
+        $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
+            $("#modal").html(result);
+        }});
+    });*/
+</script>
+
+
+
+<div id="seed-chart" class="chart"></div>
+
+<script type="text/javascript">
+
+    var data = {{ data|json_encode|raw }};
+
+
+    var plants     = [];
+    var plantNames = [];
+    plantNames.push("");
+    data.forEach(function (plant) {
+        plants.push(plant);
+        plantNames.push(plant.name);
+    });
+
+    plantNames.push(" ");
+
+    var barHeight = 20;
+
+    var margin = {top: 10, right: 10, bottom: 20, left: 10};
+    var width = $("#content").width();
+    var height = barHeight * (plantNames.length + 5) * 1.5;
+
+    var parseTime    = d3.timeParse("%Y-%m-%d %H:%M:%S");
+
+    var svg = d3.select("#seed-chart").append("svg")
+        .attr("width", width)
+        .attr("height", height + margin.top + margin.bottom);
+
+    var x = d3.scaleTime()
+        .domain([new Date(2018, 0, 1), new Date(2018, 11, 31)])
+        .range([0, (width - 160)]);
+
+    var xAxis = d3.axisBottom(x)
+        .ticks(d3.timeMonth.month)
+        .tickSize(16, 0)
+        .tickFormat(d3.timeFormat("%b"));
+
+
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(140," + (height) + ")")
+        .call(xAxis)
+        .selectAll(".tick text")
+        .style("text-anchor", "start")
+        .attr("x", 6)
+        .attr("y", 6);
+
+
+
+
+    var y = d3.scalePoint()
+        .domain(plantNames)
+        .range([margin.top * 3, height]);
+
+    var yAxis = d3.axisLeft(y)
+        .tickSize(-width, 0);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(140, 0)")
+        .call(yAxis);
+
+    var bar = svg.selectAll(".rect")
+        .data(plants)
+        .enter().append("g")
+        .attr("transform", function(d) { return "translate(140, " + (y(d.name) - (barHeight / 2)) + ")" });
+
+
+    bar.append("rect")
+        .style("fill", "green")
+        .attr("y", -7)
+        .attr("width",  function(d) {
+            var begin = x(parseTime(d.harvestingPeriodStart.date.substring(0, (d.harvestingPeriodStart.date.length - 7))));
+            var end = x(parseTime(d.harvestingPeriodEnd.date.substring(0, (d.harvestingPeriodEnd.date.length - 7))));
+            return (end - begin);
+        })
+        .attr("height", barHeight)
+        .attr("x", function(d) { return x(parseTime(d.harvestingPeriodStart.date.substring(0, (d.harvestingPeriodStart.date.length - 7)))) });
+
+    bar.append("rect")
+        .style("fill", "steelblue")
+        .attr("y", 10)
+        .attr("width",  function(d) {
+            var begin = x(parseTime(d.seedingPeriodStart.date.substring(0, (d.seedingPeriodStart.date.length - 7))));
+            var end = x(parseTime(d.seedingPeriodEnd.date.substring(0, (d.seedingPeriodEnd.date.length - 7))));
+            return (end - begin);
+        })
+        .attr("height", barHeight)
+        .attr("x", function(d) { return x(parseTime(d.seedingPeriodStart.date.substring(0, (d.seedingPeriodStart.date.length - 7)))) });
+
+
+
+
+
+    d3.select(".y").selectAll(".tick").attr("stroke-width",(barHeight * 2));
+    svg.selectAll(".tick:first-of-type line").attr("opacity", 0);
+    svg.selectAll(".tick line").attr("stroke", "#777").attr("stroke-dasharray", "2,2");
+
+
+
+</script>

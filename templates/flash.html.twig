@@ -1,0 +1,19 @@
+{% for messages in app.flashes(['notice', 'error']) %}
+    {% for message in messages %}
+        <div class="reveal" id="animatedModalFlash" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+            <div class="flash-notice">
+                {{ message|raw }}
+            </div>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endfor %}
+{% endfor %}
+<script>
+    var popup = new Foundation.Reveal($('#animatedModalFlash'));
+    popup.open();
+    setTimeout(function() {
+        popup.close();
+    }, 3000);
+</script>

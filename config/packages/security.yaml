@@ -4,12 +4,39 @@ security:
     # https://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
     providers:
         in_memory: { memory: ~ }
+        our_db_provider:
+            entity:
+                class: App\Entity\User
+                property: email
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
         main:
             anonymous: ~
+            provider: our_db_provider
+            entry_point:
+            form_login:
+                login_path: login
+                check_path: login
+                username_parameter: user[email]
+                password_parameter: user[plainPassword]
+                use_referer: false
+                success_handler: acme.security.authentication_handler
+                failure_handler: acme.security.authentication_handler
+
+            access_denied_handler: App\Handler\AccessDeniedHandler
+            entry_point: acme.security.entry_point_handler
+
+            logout:
+                path: logout
+                success_handler: acme.security.logout_handler
+
+    access_control:
+        # require ROLE_ADMIN for /admin*
+        - { path: ^/admin, roles: ROLE_ADMIN }
+
+
 
             # activate different ways to authenticate
 

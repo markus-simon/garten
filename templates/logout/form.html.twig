@@ -1,0 +1,22 @@
+<!-- TODO -->
+
+<script>
+    $(function() {
+        $("#login").text("Login");
+        $("#login").data("url", "user");
+        $("#action-button").remove();
+        var popup = new Foundation.Reveal($('#animatedModalForm'));
+        popup.open();
+        setTimeout(function() {
+            popup.close();
+        }, 3000);
+
+    });
+</script>
+
+<div class="reveal" id="animatedModalForm" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+    Bis bald!
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>

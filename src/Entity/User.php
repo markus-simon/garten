@@ -15,6 +15,8 @@ use Symfony\Component\Security\Core\User\UserInterface;
  */
 class User implements UserInterface
 {
+    const ENTITY_NAME = "user";
+
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
@@ -142,7 +144,7 @@ class User implements UserInterface
 
     public function getRoles()
     {
-        return array('ROLE_USER');
+        return array('ROLE_ADMIN');
     }
 
     public function setRoles($roles)

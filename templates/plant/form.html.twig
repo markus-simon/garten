@@ -1,0 +1,74 @@
+<script>
+    $(function() {
+        var popup = new Foundation.Reveal($('#animatedModalForm'));
+        popup.open();
+        $("form[name='plant']").on("submit", function(e) {
+            e.preventDefault();
+            var target = $(this).attr('action');
+            var form   = $(this).serializeArray();
+            console.log(form);
+            $.ajax({type: "post", data: form, url: target, success: function(result) {
+                $('#content').html(result);
+                popup.close();
+            }});
+        });
+
+
+        $('.picker').fdatepicker({
+            format: 'dd.mm',
+            language: 'de'
+        });
+
+/*        var nowTemp = new Date();
+        var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+        var checkin = $('#dpd1').fdatepicker({
+            onRender: function (date) {
+                return date.valueOf() < now.valueOf() ? 'disabled' : '';
+            }
+        }).on('changeDate', function (ev) {
+            if (ev.date.valueOf() > checkout.date.valueOf()) {
+                var newDate = new Date(ev.date)
+                newDate.setDate(newDate.getDate() + 1);
+                checkout.update(newDate);
+            }
+            checkin.hide();
+            $('#dpd2')[0].focus();
+        }).data('datepicker');
+        var checkout = $('#dpd2').fdatepicker({
+            onRender: function (date) {
+                return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+            }
+        }).on('changeDate', function (ev) {
+            checkout.hide();
+        }).data('datepicker');*/
+    });
+</script>
+
+
+<div class="reveal" id="animatedModalForm" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+    <div class="flash-notice">
+        {{ form_start(form) }}
+            {{ form_row(form.name) }}
+            {{ form_row(form.latinName) }}
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-6">
+                    {{ form_row(form.seedingPeriodStart) }}
+                </div>
+                <div class="cell small-6">
+                    {{ form_row(form.seedingPeriodEnd) }}
+                </div>
+            </div>
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-6">
+                    {{ form_row(form.harvestingPeriodStart) }}
+                </div>
+                <div class="cell small-6">
+                    {{ form_row(form.harvestingPeriodEnd) }}
+                </div>
+            </div>
+        {{ form_end(form) }}
+    </div>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>

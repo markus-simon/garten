@@ -26,3 +26,23 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Listener\SaveEvent:
+        tags:
+            - { name: kernel.event_listener, event: save_before }
+            - { name: kernel.event_listener, event: save_after  }
+
+    acme.security.authentication_handler:
+        class: App\Handler\AuthenticationHandler
+        public: false
+        arguments:
+          - "@router"
+          - "@session"
+
+    acme.security.logout_handler:
+        class: App\Handler\LogoutHandler
+        public: false
+
+    acme.security.entry_point_handler:
+        class: App\Handler\EntryPointHandler
+        public: false

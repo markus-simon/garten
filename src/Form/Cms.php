@@ -12,8 +12,8 @@ class Cms extends AbstractType
     {
         $builder->add('id',       Type\HiddenType::class);
         $builder->add('title',    Type\TextType::class);
-        $builder->add('content',  Type\TextareaType::class);
+        $builder->add('content',  Type\TextareaType::class, array('attr' => ['rows' => 4]));
         $builder->add('username', Type\TextType::class);
-        $builder->add('save',     Type\SubmitType::class, array('attr' => ['class' => 'button']));
+        $builder->add('save',     Type\SubmitType::class,   array('attr' => ['class' => 'button']));
     }
 }
