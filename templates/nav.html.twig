@@ -33,6 +33,7 @@
             var type   = $(this).data("type");
             $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
                 $("#modal").html(result);
+                CKEDITOR.env.isCompatible = true;
                 CKEDITOR.replace("cms[content]");
 
             }});
