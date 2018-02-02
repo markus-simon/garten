@@ -22,6 +22,10 @@
     outline: none;
 }
 
+.menu .menu-text {
+    padding: 0 4rem;
+}
+
 #seed-chart {
     /*
     background-color: #8ee784;
