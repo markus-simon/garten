@@ -22,7 +22,10 @@
         $(document).on("click", "#login", function() {
             if ($(this).data("url") == "logout") {
                 $.ajax({type: "post", url: "logout", success: function(result) {
+                    $("#actions").remove();
+/*
                     $("#modal").html(result);
+*/
                 }});
             }
         });
@@ -33,9 +36,7 @@
             var type   = $(this).data("type");
             $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
                 $("#modal").html(result);
-                CKEDITOR.env.isCompatible = true;
                 CKEDITOR.replace("cms[content]");
-
             }});
         });
 
@@ -44,7 +45,7 @@
 
 {% block menu %}
     <div id="head">
-        <ul class="menu">
+        <ul class="menu align-right">
             {% if is_granted('ROLE_ADMIN') == true %}
                 <li id="action-button" class="menu-text text-right">
                     <button type="button" class="button" data-toggle="offCanvasRight">Actions</button>

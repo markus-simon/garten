@@ -16,7 +16,8 @@
                 $("#flash").html(JSON.parse(result));
                 $("#login").text("Logout");
                 $("#login").data("url", "logout");
-                $(".top-bar-right ul").prepend('<li class="menu-text text-right"><button type="button" class="button" data-toggle="offCanvasRight">Actions</button></li>');
+                $("#actions").remove();
+                $(".menu").prepend('<li id="actions" class="menu-text text-right"><button type="button" class="button" data-toggle="offCanvasRight">Actions</button></li>');
                 popup.close();
             })
             .fail(function(result) {

@@ -18,12 +18,12 @@
     max-width:250px;
 }
 
-.menu a {
-    outline: none;
+.off-canvas {
+    background: #d6ffd5;
 }
 
-.menu .menu-text {
-    padding: 0 4rem;
+.menu a {
+    outline: none;
 }
 
 #seed-chart {
@@ -247,7 +247,7 @@ body {
     top: 20px;
     left: 20px;
     z-index: 999;
-    color: white;
+    color: #6e6e6e;
     border: 0;
     background: none;
     outline: 0;
