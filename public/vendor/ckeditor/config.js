@@ -34,7 +34,4 @@ CKEDITOR.editorConfig = function( config ) {
 
     config.allowedContent = true;
     config.fillEmptyBlocks = false;
-/*
-    config.env.isCompatible = true;
-*/
 };

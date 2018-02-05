@@ -23,15 +23,6 @@
             .fail(function(result) {
                 $("#flash").html(JSON.parse(result.responseJSON));
             })
-
-/*            $.ajax({type: "post", dataType: "json", data: form, url: target, success: function(result) {
-                console.log(result);
-                $("#flash").html(JSON.parse(result));
-                $("#login").text("Logout");
-                $("#login").data("url", "logout");
-                $(".top-bar-right ul").prepend('<li class="menu-text text-right"><button type="button" class="button" data-toggle="offCanvasRight">Actions</button></li>');
-                popup.close();
-            }});*/
         });
     });
 </script>
