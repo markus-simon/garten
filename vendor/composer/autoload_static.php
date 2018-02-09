@@ -20,6 +20,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
             'Zend\\EventManager\\' => 18,
             'Zend\\Code\\' => 10,
         ),
+        'V' => 
+        array (
+            'Vich\\UploaderBundle\\' => 20,
+        ),
         'T' => 
         array (
             'Twig\\Extensions\\' => 16,
@@ -32,6 +36,7 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Validator\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Templating\\' => 29,
             'Symfony\\Component\\Security\\' => 27,
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\PropertyAccess\\' => 33,
@@ -113,6 +118,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-code/src',
         ),
+        'Vich\\UploaderBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vich/uploader-bundle',
+        ),
         'Twig\\Extensions\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/extensions/src',
@@ -140,6 +149,10 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\Templating\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/templating',
         ),
         'Symfony\\Component\\Security\\' => 
         array (
@@ -378,6 +391,13 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
                 0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
             ),
         ),
+        'M' => 
+        array (
+            'Metadata\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/jms/metadata/src',
+            ),
+        ),
         'E' => 
         array (
             'Evenement' => 
@@ -398,6 +418,13 @@ class ComposerStaticInita864fc3084b89fbcfae600a357d3287b
             'Doctrine\\Common\\Collections\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
+            ),
+        ),
+        'B' => 
+        array (
+            'Behat\\Transliterator' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/transliterator/src',
             ),
         ),
     );

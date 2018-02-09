@@ -1,17 +1,36 @@
 {% for entry in data %}
 
-
     <div id="blog-id-{{ entry.id }}" class="blog-post">
-        <div class="entry-content">{{ entry.content|raw }}</div>
-        <script>
-            $("#blog-id-{{ entry.id }} .title").text("{{ entry.title }}");
-            $("#blog-id-{{ entry.id }} .day").text("{{ entry.createdAt.date|date('d') }}");
-            var month = "{{ entry.createdAt.date|date('F') }}";
-            $("#blog-id-{{ entry.id }} .month").text(
-                {% trans %}month{% endtrans %}
-            );
-        </script>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x blog-card2">
+                <div class="cell large-5 large-offset-1 blog-card-thumbnail2">
+                    <img src="{{ asset('images') }}/{{entry.image}}" />
+                </div>
+                <div class="cell large-6 blog-card-right2">
+                    <h1 class="title">{{ entry.title }}</h1>
+                    <div class="blog-card-separator"></div>
+                    <div class="blog-content">{{ entry.content|raw }}</div>
+                </div>
+                <h5 class="day">{{ entry.createdAt.date|date('d') }}</h5>
+                <h6 class="month">{{ entry.createdAt.date|date('F') }}</h6>
+                <div class="blog-card-fab2"><i class="fa fa-arrow-down fa-3x"></i></div>
+            </div>
+        </div>
     </div>
+    <script>
+        $(".blog-content").dotdotdot({
+            height: 200
+        });
+
+        $("#blog-id-{{ entry.id }} .blog-card-fab2").on("click", function() {
+            var blogId = {{ entry.id }};
+            $.ajax({
+                type: "post", url: "action", data: {action: "cms", type: "single", id: blogId}, success: function (result) {
+                    $("#content").html(result);
+                }
+            });
+        });
+    </script>
 {% else %}
     <div>
         <p>No Content found! Komm später wieder. Bitte ....</p>

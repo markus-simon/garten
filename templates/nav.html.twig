@@ -2,21 +2,27 @@
     <script>
 
         $(document).on("click", ".burger", function() {
+            console.log($(this));
             $(this).toggleClass('open');
-            $(this).data("toggle", "offCanvasLeft");
+            $(this).data("toggle", "offCanvasLeftPush");
         });
 
         $(document).on("click", "#head a", function() {
             target = $(this).data("url");
-            var type   = $(this).data("type");
-            $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
-                if (type === "full") {
-                    $("#content").html(result);
-                    $("#add").data("url", target);
-                } else {
-                    $("#modal").html(result);
-                }
-            }});
+            if (target) {
+                var type = $(this).data("type");
+                $.ajax({
+                    type: "post", url: "action", data: {action: target, type: type}, success: function (result) {
+                        if (type === "full") {
+                            $("#content").html(result);
+                            $("#add").data("url", target);
+                        } else {
+                            $("#modal").html(result);
+                            CKEDITOR.replace("cms[content]");
+                        }
+                    }
+                });
+            }
         });
 
         $(document).on("click", "#login", function() {
@@ -30,25 +36,15 @@
             }
         });
 
-        $(document).off("click", "#add");
-        $(document).on("click", "#add", function() {
-            var target = $(this).data("url");
-            var type   = $(this).data("type");
-            $.ajax({type: "post", url: "action", data: {action: target, type: type}, success: function(result) {
-                $("#modal").html(result);
-                CKEDITOR.replace("cms[content]");
-            }});
-        });
-
     </script>
 {% endblock %}
 
 {% block menu %}
     <div id="head">
-        <ul class="menu align-right">
+        <ul class="menu header-nav align-right">
             {% if is_granted('ROLE_ADMIN') == true %}
                 <li id="action-button" class="menu-text text-right">
-                    <button type="button" class="button" data-toggle="offCanvasRight">Actions</button>
+                    <a data-toggle="offCanvasRightPush" href="#">Actions</a>
                 </li>
             {% endif %}
             <li class="menu-text text-right">
@@ -60,15 +56,15 @@
             </li>
         </ul>
 
-        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas>
-            <ul class="vertical">
-                <li>
-                    <button id="add" type="button" data-url="cms" data-type="modal" class="button">Add</button>
-                </li>
+        <div class="off-canvas position-right" id="offCanvasRightPush" data-off-canvas data-transition="push">
+            <ul class="vertical menu">
+                <li class="menu-text"><a id="add" data-type="modal" data-url="cms" href="#">Add</a></li>
+                <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Edit</a></li>
+                <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Delete</a></li>
             </ul>
         </div>
 
-        <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+        <div class="off-canvas position-left" id="offCanvasLeftPush" data-off-canvas data-transition="push">
             <ul class="vertical menu">
                 <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
                 <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
@@ -79,7 +75,7 @@
             </ul>
         </div>
 
-        <button class="burger" data-toggle="offCanvasLeft"></button>
+        <button class="burger" data-toggle="offCanvasLeftPush"></button>
 
     </div>
 {% endblock %}

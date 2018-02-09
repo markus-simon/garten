@@ -4,11 +4,6 @@
     font-size: 2rem;
 }
 
-#sidebar {
-    height: 100vh;
-    background-color: #3980c6;
-}
-
 .menu.vertical {
     margin-top: 70px;
 }
@@ -80,13 +75,6 @@ textarea {
     height: 200px;
 }
 
-.ck-editor__editable {
-    min-height: 400px;
-    min-width:  500px;
-}
-
-
-
 
 
 
@@ -97,13 +85,22 @@ textarea {
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-/*Just the background stuff */
 
-/*My hum... body.. yeah.. */
 body {
     font-family: "Roboto", sans-serif;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
+a {
+    color: #6e6e6e;
+}
+
+.blog-post {
+    opacity: 0.9;
+}
 
 .blog-card2 {
     position: relative;

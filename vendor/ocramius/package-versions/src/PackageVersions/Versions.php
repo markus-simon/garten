@@ -11,6 +11,7 @@ namespace PackageVersions;
 final class Versions
 {
     const VERSIONS = array (
+  'behat/transliterator' => 'v1.2.0@826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c',
   'cboden/ratchet' => 'v0.4.1@0d31f3a8ad4795fd48397712709e55cd07f51360',
   'doctrine/annotations' => 'v1.6.0@c7f2050c68a9ab0bdb0f98567ec08d80ea7d24d5',
   'doctrine/cache' => 'v1.7.1@b3217d58609e9c8e661cd41357a54d926c4a2a1a',
@@ -28,6 +29,7 @@ final class Versions
   'evenement/evenement' => 'v3.0.1@531bfb9d15f8aa57454f5f0285b18bec903b8fb7',
   'guzzlehttp/psr7' => '1.4.2@f5b8a8512e2b58b0071a7280e39f14f72e05d87c',
   'jdorn/sql-formatter' => 'v1.2.17@64990d96e0959dff8e059dfcdc1af130728d92bc',
+  'jms/metadata' => '1.6.0@6a06970a10e0a532fb52d3959547123b84a3b3ab',
   'ocramius/package-versions' => '1.2.0@ad8a245decad4897cc6b432743913dad0d69753c',
   'ocramius/proxy-manager' => '2.2.0@81d53b2878f1d1c40ad27270e64b51798485dfc5',
   'psr/cache' => '1.0.1@d11b50ad223250cf17b86e38383413f5a6764bf8',
@@ -71,6 +73,7 @@ final class Versions
   'symfony/routing' => 'v4.0.3@a34b58ed26cc090f99b2ef833d609a6884581b3c',
   'symfony/security' => 'v4.0.3@dfc0ef20a75b723ab2f20449a7b5dd768800c9e2',
   'symfony/security-bundle' => 'v4.0.3@0440854c202dd49a64310cdd40a1c7008449b578',
+  'symfony/templating' => 'v4.0.4@1b30ab3884d860f59811960db670273893edddae',
   'symfony/translation' => 'v4.0.4@a9c4e4cc56f7eff0960c4f6c157da8f6b13211fc',
   'symfony/twig-bridge' => 'v4.0.3@92b7c3f30fc8d23ac4be8da4e575a3bb7ea903c1',
   'symfony/twig-bundle' => 'v4.0.3@7c1ee541f7d8836d901d989c449746c953be930b',
@@ -78,10 +81,11 @@ final class Versions
   'symfony/yaml' => 'v4.0.3@b84f646b9490d2101e2c25ddeec77ceefbda2eee',
   'twig/extensions' => 'v1.5.1@d188c76168b853481cc75879ea045bf93d718e9c',
   'twig/twig' => 'v2.4.4@eddb97148ad779f27e670e1e3f19fb323aedafeb',
+  'vich/uploader-bundle' => '1.8.1@a6c44e282d79649655ae1398d4ec48c0bd8f70c3',
   'zendframework/zend-code' => '3.3.0@6b1059db5b368db769e4392c6cb6cc139e56640d',
   'zendframework/zend-eventmanager' => '3.2.0@9d72db10ceb6e42fb92350c0cb54460da61bd79c',
   'symfony/dotenv' => 'v4.0.3@afb6923923e22874dac20bd042167ccb8df1d158',
-  '__root__' => 'dev-master@dcbcb2008637ab9859a24cb0a3266e2f69a62fce',
+  '__root__' => 'dev-master@3a0284b777a44ab132c536663165832cd3eab1f3',
 );
 
     private function __construct()

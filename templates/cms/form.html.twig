@@ -4,17 +4,22 @@
         popup.open();
         $("form[name='cms']").on("submit", function(e) {
             e.preventDefault();
+            $("#cms_content").html(CKEDITOR.instances['cms_content'].getData());
+            var formData = new FormData($(this)[0]);
             var target = $(this).attr('action');
-            console.log($(this));
-            var form   = $(this).serializeArray();
-            console.log(form);
-            form[2] = {name:"cms[content]", value: CKEDITOR.instances['cms_content'].getData()};
-            console.log(form);
-
-            $.ajax({type: "post", data: form, url: target, success: function(result) {
-                $('#content').html(result);
-                popup.close();
-            }});
+            $.ajax({
+                type: 'post',
+                url: target,
+                data: formData,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(result) {
+                    $('#content').html(result);
+                    popup.close();
+                    $("#action-button a").data("toggle", "offCanvasRightPush");
+                }
+            });
         });
     });
 </script>

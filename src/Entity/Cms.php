@@ -29,8 +29,14 @@ class Cms
     public $title;
 
     /**
+     * @ORM\Column(type="string", nullable=true)
+     * @Assert\File()
+     */
+    public $image;
+
+    /**
      * @ORM\Column(type="text")
-     * @Assert\NotBlank()
+     * @Assert\NotBlank(message="Ohne Text wird das nichts!")
      */
     public $content;
 
@@ -78,6 +84,24 @@ class Cms
     public function setTitle($title)
     {
         $this->title = $title;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * @param mixed $image
+     * @return Cms
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
         return $this;
     }
 

@@ -2,27 +2,17 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\SecurityBundle\Tests\Functional\Bundle\FirewallEntryPointBundle\Security\EntryPointStub;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
-use Symfony\Component\EventDispatcher\Event;
-
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\EventDispatcher\EventDispatcher;
-use Symfony\Component\Routing\Matcher\UrlMatcherInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
-
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use App\Entity;
 use App\Form;
-use App\Event as Events;
-use App\Service\Websocket;
 
-use Ratchet;
-use Symfony\Component\Security\Http\EntryPoint\AuthenticationEntryPointInterface;
 
 class IndexController extends Controller
 {
@@ -40,7 +30,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return $this->render('base.html.twig', $this->getResponse(Entity\Cms::ENTITY_NAME));
+        return $this->render('base.html.twig', $this->getResponse(Entity\Cms::ENTITY_NAME, null, "full"));
     }
 
     /**
@@ -52,13 +42,17 @@ class IndexController extends Controller
     {
         $action         = $request->request->get('action', '404');
         $type           = $request->request->get('type',   'full');
+        $id             = $request->request->get('id',   null);
         $templateFolder = $this->container->getParameter("twig.default_path");
         if ($type == "modal") {
             $action = $action . "/form";
         }
+        if ($type == "single") {
+            $action = $action . "/detail";
+        }
         $template       = $templateFolder . DIRECTORY_SEPARATOR . $action . '.html.twig';
         if (file_exists($template) && $action != '404') {
-            $html = $this->render($action . '.html.twig', $this->getResponse($action, $type));
+            $html = $this->render($action . '.html.twig', $this->getResponse($action, $id, $type));
         } else {
             $html = $this->render('404.html.twig');
         }
@@ -85,19 +79,6 @@ class IndexController extends Controller
     public function logout(Request $request, AuthenticationUtils $authUtils)
     {
         $error = $authUtils->getLastAuthenticationError();
-/*        if (isset($error)) {
-            $this->addFlash(
-                "error",
-                $error->getMessage()
-            );
-        } else {
-            $this->addFlash(
-                "notice",
-                "Geilomat"
-            );
-        }
-        $flash    = $this->render('flash.html.twig');
-        return new JsonResponse(json_encode($flash->getContent()));*/
     }
 
     /**
@@ -116,6 +97,16 @@ class IndexController extends Controller
         $form = $this->createForm($formType, $entity);
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
+            $file = $entity->getImage();
+
+            if($file) {
+                $fileName = $this->generateUniqueFileName($file);
+                $file->move(
+                    $this->getParameter('images_directory'),
+                    $fileName
+                );
+                $entity->setImage($fileName);
+            }
             $this->handleSaveRequest($entity);
         } else {
             $errors = $form->getErrors(true);
@@ -126,7 +117,7 @@ class IndexController extends Controller
                 );
             }
         }
-        $content  = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME));
+        $content  = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME, null, "full"));
         $flash    = $this->render('flash.html.twig');
         return new Response($content->getContent() . $flash->getContent());
     }
@@ -136,9 +127,7 @@ class IndexController extends Controller
      */
     public function handleSaveRequest($entity)
     {
-/*        $object = new Events\SaveEvent($entity);*/
         try {
-/*            $this->dispatcher->dispatch('save_before', $object);*/
             $this->em->persist($entity);
             $this->em->flush();
             $this->em->refresh($entity);
@@ -146,8 +135,6 @@ class IndexController extends Controller
                 'notice',
                 'Your changes were saved!'
             );
-/*            $this->dispatcher->dispatch('save_after', $object);*/
-
         } catch (\Exception $e) {
             $this->addFlash(
                 'error',
@@ -158,17 +145,21 @@ class IndexController extends Controller
 
     /**
      * @param $action
+     * @param $id
      * @param $type
      * @return array
      */
-    public function getResponse($action, $type = "full")
+    public function getResponse($action, $id, $type)
     {
         $response = [];
         switch($action) {
             case Entity\Cms::ENTITY_NAME:
             case Entity\Cms::ENTITY_NAME . "/form":
+            case Entity\Cms::ENTITY_NAME . "/detail":
                 if ($type == "full") {
                     $response["data"] = $this->em->getRepository(Entity\Cms::class)->findBy([], ["id" => "desc"]);
+                } elseif ($type == "single") {
+                    $response["data"] = $this->em->getRepository(Entity\Cms::class)->findOneBy(["id" => $id]);
                 } else {
                     $form             = $this->createForm(Form\Cms::class, null, array('action' => "save"));
                     $response["form"] = $form->createView();
@@ -207,5 +198,14 @@ class IndexController extends Controller
                 break;
         }
         return $response;
+    }
+
+    /**
+     * @param UploadedFile $file
+     * @return string
+     */
+    private function generateUniqueFileName(UploadedFile $file)
+    {
+        return md5(uniqid()).'.'.$file->guessExtension();
     }
 }
