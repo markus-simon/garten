@@ -180,6 +180,16 @@ a {
     border: 1px solid #C3C3C3;
 }
 
+.blog-content {
+    overflow: hidden;
+    max-height: 200px;
+    -webkit-transition: max-height 2s;
+    -moz-transition: max-height 2s;
+    -ms-transition: max-height 2s;
+    -o-transition: max-height 2s;
+    transition: max-height 2s;
+}
+
 .fa-arrow-down:before {
     content: "\f063";
 }

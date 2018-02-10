@@ -1,5 +1,4 @@
 {% for entry in data %}
-
     <div id="blog-id-{{ entry.id }}" class="blog-post">
         <div class="grid-container">
             <div class="grid-x grid-margin-x blog-card2">
@@ -17,22 +16,22 @@
             </div>
         </div>
     </div>
-    <script>
-        $(".blog-content").dotdotdot({
-            height: 200
-        });
-
-        $("#blog-id-{{ entry.id }} .blog-card-fab2").on("click", function() {
-            var blogId = {{ entry.id }};
-            $.ajax({
-                type: "post", url: "action", data: {action: "cms", type: "single", id: blogId}, success: function (result) {
-                    $("#content").html(result);
-                }
-            });
-        });
-    </script>
 {% else %}
     <div>
         <p>No Content found! Komm später wieder. Bitte ....</p>
     </div>
 {% endfor %}
+
+<script>
+    $(".blog-card-fab2").on("click", function() {
+        $(this).toggleClass("open");
+        if ($(this).hasClass("open")) {
+            $('.blog-content').css('max-height', "100%");
+            $(this).children().removeClass("fa-arrow-down").addClass("fa-arrow-up");
+
+        } else {
+            $('.blog-content').css('max-height', '200px');
+            $(this).children().removeClass("fa-arrow-up").addClass("fa-arrow-down");
+        }
+    });
+</script>
