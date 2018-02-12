@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
+use Symfony\Component\HttpFoundation\File\File;
 use App\Entity;
 use App\Form;
 
@@ -30,7 +31,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return $this->render('base.html.twig', $this->getResponse(Entity\Cms::ENTITY_NAME, null, "full"));
+        return $this->render('base.html.twig', $this->getResponse(Entity\Cms::ENTITY_NAME, "full"));
     }
 
     /**
@@ -47,12 +48,9 @@ class IndexController extends Controller
         if ($type == "modal") {
             $action = $action . "/form";
         }
-        if ($type == "single") {
-            $action = $action . "/detail";
-        }
         $template       = $templateFolder . DIRECTORY_SEPARATOR . $action . '.html.twig';
         if (file_exists($template) && $action != '404') {
-            $html = $this->render($action . '.html.twig', $this->getResponse($action, $id, $type));
+            $html = $this->render($action . '.html.twig', $this->getResponse($action, $type, $id));
         } else {
             $html = $this->render('404.html.twig');
         }
@@ -98,8 +96,9 @@ class IndexController extends Controller
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $file = $entity->getImage();
-
-            if($file) {
+            if (!$file) {
+                $file = $request->request->get('cms')['uploadedImage'];
+            } else {
                 $fileName = $this->generateUniqueFileName($file);
                 $file->move(
                     $this->getParameter('images_directory'),
@@ -117,7 +116,7 @@ class IndexController extends Controller
                 );
             }
         }
-        $content  = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME, null, "full"));
+        $content  = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME, "full"));
         $flash    = $this->render('flash.html.twig');
         return new Response($content->getContent() . $flash->getContent());
     }
@@ -128,9 +127,19 @@ class IndexController extends Controller
     public function handleSaveRequest($entity)
     {
         try {
-            $this->em->persist($entity);
-            $this->em->flush();
-            $this->em->refresh($entity);
+            if ($entity->getId()) {
+                $em = $this->getDoctrine()->getManager();
+                $entry = $em->getRepository(get_class($entity))->find($entity->getId());
+                $entry->setData($entity->getData());
+                $em->flush();
+                $em->refresh($entry);
+            } else {
+                $this->em->persist($entity);
+                $this->em->flush();
+                $this->em->refresh($entity);
+            }
+
+
             $this->addFlash(
                 'notice',
                 'Your changes were saved!'
@@ -145,23 +154,26 @@ class IndexController extends Controller
 
     /**
      * @param $action
-     * @param $id
      * @param $type
+     * @param $id
      * @return array
      */
-    public function getResponse($action, $id, $type)
+    public function getResponse($action, $type, $id = null)
     {
         $response = [];
         switch($action) {
             case Entity\Cms::ENTITY_NAME:
             case Entity\Cms::ENTITY_NAME . "/form":
-            case Entity\Cms::ENTITY_NAME . "/detail":
                 if ($type == "full") {
                     $response["data"] = $this->em->getRepository(Entity\Cms::class)->findBy([], ["id" => "desc"]);
-                } elseif ($type == "single") {
-                    $response["data"] = $this->em->getRepository(Entity\Cms::class)->findOneBy(["id" => $id]);
                 } else {
-                    $form             = $this->createForm(Form\Cms::class, null, array('action' => "save"));
+                    $entity = $this->em->getRepository(Entity\Cms::class)->find($id);
+                    if ($entity && $entity->getImage()) {
+                        $uploadedImage = '/images/' . $entity->getImage();
+                        $entity->setImage(new File($this->getParameter('images_directory') . '/' . $entity->getImage()));
+                        $response["uploadedImage"] = $uploadedImage;
+                    }
+                    $form             = $this->createForm(Form\Cms::class, $entity, array('action' => "save"));
                     $response["form"] = $form->createView();
                 }
                 break;

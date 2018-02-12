@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  */
-class Plant
+class Plant extends Base
 {
     const ENTITY_NAME = "plant";
 

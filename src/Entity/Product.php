@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping\JoinColumn;
  * @ORM\Entity
  * @ORM\Table(name="product")
  */
-class Product
+class Product extends Base
 {
     /**
      * @ORM\Column(type="integer")

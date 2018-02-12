@@ -6,11 +6,13 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\HttpFoundation\File\File;
+
 
 /**
  * @ORM\Entity
  */
-class Cms
+class Cms extends Base
 {
 
     const ENTITY_NAME = "cms";
@@ -30,7 +32,6 @@ class Cms
 
     /**
      * @ORM\Column(type="string", nullable=true)
-     * @Assert\File()
      */
     public $image;
 
@@ -41,10 +42,9 @@ class Cms
     public $content;
 
     /**
-     * @ORM\Column(type="string")
-     * @Assert\NotBlank()
+     * @ORM\Column(type="integer", nullable=true)
      */
-    public $username;
+    public $user;
 
     /**
      * @ORM\Column(type="datetime", options={"default"="CURRENT_TIMESTAMP"})
@@ -158,4 +158,6 @@ class Cms
         $this->createdAt = date("Y-m-d H:i:s");
         return $this;
     }
+
+
 }

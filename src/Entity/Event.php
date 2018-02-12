@@ -10,7 +10,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * @ORM\Entity
  */
-class Event
+class Event extends Base
 {
     const ENTITY_NAME = "event";
 

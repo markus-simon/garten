@@ -10,7 +10,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * @ORM\Entity
  */
-class Log
+class Log extends Base
 {
     const ENTITY_NAME = "log";
 

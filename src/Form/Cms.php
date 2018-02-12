@@ -10,11 +10,12 @@ class Cms extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('id',       Type\HiddenType::class);
-        $builder->add('title',    Type\TextType::class);
-        $builder->add('image',    Type\FileType::class, array('label' => 'Bild hochladen'));
-        $builder->add('content',  Type\TextareaType::class, array('attr' => ['rows' => 4]));
-        $builder->add('username', Type\TextType::class);
-        $builder->add('save',     Type\SubmitType::class,   array('attr' => ['class' => 'button']));
+        $builder->add('id',           Type\HiddenType::class);
+        $builder->add('title',        Type\TextType::class);
+        $builder->add('image',        Type\FileType::class, array('required' => false, 'label' => 'Bild hochladen'));
+        $builder->add('uploadedImage',Type\HiddenType::class, array('mapped' => false));
+        $builder->add('content',      Type\TextareaType::class, array('attr' => ['rows' => 4]));
+        $builder->add('user',         Type\HiddenType::class);
+        $builder->add('save',         Type\SubmitType::class,   array('attr' => ['class' => 'button']));
     }
 }

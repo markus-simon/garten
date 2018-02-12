@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  */
-class Config
+class Config extends Base
 {
     /**
      * @ORM\Column(type="integer")

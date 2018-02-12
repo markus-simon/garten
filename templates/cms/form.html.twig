@@ -2,8 +2,13 @@
     $(function() {
         var popup = new Foundation.Reveal($('#animatedModalForm'));
         popup.open();
+        if (!CKEDITOR.instances['cms_content']) {
+            CKEDITOR.replace("cms[content]");
+        }
         $("form[name='cms']").on("submit", function(e) {
             e.preventDefault();
+            $("#cms_user").val(3);
+            $("#cms_uploadedImage").val($("#uploaded-image").attr("src"));
             $("#cms_content").html(CKEDITOR.instances['cms_content'].getData());
             var formData = new FormData($(this)[0]);
             var target = $(this).attr('action');
@@ -27,7 +32,17 @@
 <div class="reveal" id="animatedModalForm" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
     <div class="flash-notice">
         {{ form_start(form) }}
-            {{ form_widget(form) }}
+            {{ form_row(form.title) }}
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-6">
+                    {{ form_row(form.image) }}
+                </div>
+                <div class="cell small-6">
+                    {% if uploadedImage is defined %}
+                        <img id="uploaded-image" src="{{ url('index')~uploadedImage}}" />
+                    {% endif %}
+                </div>
+            </div>
         {{ form_end(form) }}
     </div>
     <button class="close-button" data-close aria-label="Close reveal" type="button">

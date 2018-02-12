@@ -2,23 +2,22 @@
     <script>
 
         $(document).on("click", ".burger", function() {
-            console.log($(this));
             $(this).toggleClass('open');
             $(this).data("toggle", "offCanvasLeftPush");
         });
 
-        $(document).on("click", "#head a", function() {
-            target = $(this).data("url");
+        $(document).on("click", ".off-canvas a, #head a, .blog-actions a", function() {
+            var target = $(this).data("url");
+            var id     = $(this).data("id") || null;
             if (target) {
                 var type = $(this).data("type");
                 $.ajax({
-                    type: "post", url: "action", data: {action: target, type: type}, success: function (result) {
+                    type: "post", url: "action", data: {action: target, type: type, id: id}, success: function (result) {
                         if (type === "full") {
                             $("#content").html(result);
                             $("#add").data("url", target);
-                        } else {
+                        } else if (type === "modal") {
                             $("#modal").html(result);
-                            CKEDITOR.replace("cms[content]");
                         }
                     }
                 });
@@ -40,43 +39,44 @@
 {% endblock %}
 
 {% block menu %}
-    <div id="head">
-        <ul class="menu header-nav align-right">
-            {% if is_granted('ROLE_ADMIN') == true %}
-                <li id="action-button" class="menu-text text-right">
-                    <a data-toggle="offCanvasRightPush" href="#">Actions</a>
-                </li>
-            {% endif %}
-            <li class="menu-text text-right">
-                {% if is_granted('ROLE_ADMIN') == false %}
-                    <a id="login" data-type="modal" data-url="user" href="#">Login</a>
-                {% else  %}
-                    <a id="login" data-type="modal" data-url="logout" href="#">Logout</a>
+    <div data-sticky-container>
+        <div id="head" data-sticky data-options="marginTop:0;">
+            <ul class="menu header-nav align-right">
+                {% if is_granted('ROLE_ADMIN') == true %}
+                    <li id="action-button" class="menu-text text-right">
+                        <a data-type="offcanvas" data-toggle="offCanvasRightPush" href="#">Actions</a>
+                    </li>
                 {% endif %}
-            </li>
-        </ul>
-
-        <div class="off-canvas position-right" id="offCanvasRightPush" data-off-canvas data-transition="push">
-            <ul class="vertical menu">
-                <li class="menu-text"><a id="add" data-type="modal" data-url="cms" href="#">Add</a></li>
-                <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Edit</a></li>
-                <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Delete</a></li>
+                <li class="menu-text text-right">
+                    {% if is_granted('ROLE_ADMIN') == false %}
+                        <a id="login" data-type="modal" data-url="user" href="#">Login</a>
+                    {% else  %}
+                        <a id="login" data-type="modal" data-url="logout" href="#">Logout</a>
+                    {% endif %}
+                </li>
             </ul>
+            <button class="burger" data-toggle="offCanvasLeftPush"></button>
         </div>
-
-        <div class="off-canvas position-left" id="offCanvasLeftPush" data-off-canvas data-transition="push">
-            <ul class="vertical menu">
-                <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
-                <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
-                <li class="menu-text"><a data-type="full" data-url="log" href="#">Log</a></li>
-                <li class="menu-text"><a data-type="full" data-url="event" href="#">Events</a></li>
-                <li class="menu-text"><a data-type="full" data-url="plant" href="#">Aussaat</a></li>
-                <li class="menu-text"><a data-type="full" data-url="40x" href="#">Ups</a></li>
-            </ul>
-        </div>
-
-        <button class="burger" data-toggle="offCanvasLeftPush"></button>
-
     </div>
+
+    <div class="off-canvas position-right" id="offCanvasRightPush" data-off-canvas data-transition="push">
+        <ul class="vertical menu">
+            <li class="menu-text"><a id="add" data-type="modal" data-url="cms" href="#">Add</a></li>
+{#            <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Edit</a></li>
+            <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Delete</a></li>#}
+        </ul>
+    </div>
+
+    <div class="off-canvas position-left" id="offCanvasLeftPush" data-off-canvas data-transition="push">
+        <ul class="vertical menu">
+            <li class="menu-text"><a data-type="full" data-url="cms" href="#">Cms</a></li>
+            <li class="menu-text"><a data-type="full" data-url="map" href="#">Karte</a></li>
+            <li class="menu-text"><a data-type="full" data-url="log" href="#">Log</a></li>
+            <li class="menu-text"><a data-type="full" data-url="event" href="#">Events</a></li>
+            <li class="menu-text"><a data-type="full" data-url="plant" href="#">Aussaat</a></li>
+            <li class="menu-text"><a data-type="full" data-url="40x" href="#">Ups</a></li>
+        </ul>
+    </div>
+
 {% endblock %}
 

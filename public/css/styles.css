@@ -1,11 +1,15 @@
-#header {
-    background-color: #8dbcc6;
-    padding: 15px;
-    font-size: 2rem;
+#head {
+    background-color: rgba(255,255,255,.8);
+    z-index:14;
 }
 
 .menu.vertical {
     margin-top: 70px;
+}
+.blog-actions li {
+    list-style: none;
+    display: inline-block;
+    padding:5px;
 }
 
 .position-left {
@@ -14,7 +18,7 @@
 }
 
 .off-canvas {
-    background: #d6ffd5;
+    background-color: rgba(255,255,255,.82);
 }
 
 .menu a {
@@ -182,12 +186,7 @@ a {
 
 .blog-content {
     overflow: hidden;
-    max-height: 200px;
-    -webkit-transition: max-height 2s;
-    -moz-transition: max-height 2s;
-    -ms-transition: max-height 2s;
-    -o-transition: max-height 2s;
-    transition: max-height 2s;
+    transition: max-height 1s ease-out;
 }
 
 .fa-arrow-down:before {

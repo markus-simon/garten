@@ -12,10 +12,28 @@
                 </div>
                 <h5 class="day">{{ entry.createdAt.date|date('d') }}</h5>
                 <h6 class="month">{{ entry.createdAt.date|date('F') }}</h6>
+                <ul class="blog-actions">
+                    <li><a data-id="{{ entry.id }}" data-type="modal" data-url="cms" href="#"><i class="far fa-edit fa-2x"></i></a></li>
+                    <li><a data-id="{{ entry.id }}" data-type="modal" data-url="cms" href="#"><i class="far fa-trash-alt fa-2x"></i></a></li>
+                </ul>
                 <div class="blog-card-fab2"><i class="fa fa-arrow-down fa-3x"></i></div>
             </div>
         </div>
     </div>
+
+
+    <script>
+        var currentEntry = $("#blog-id-{{ entry.id }}").find(".blog-content");
+        var height = currentEntry.height();
+        if (height <= 200) {
+            $("#blog-id-{{ entry.id }}").find(".blog-card-fab2").hide();
+        } else {
+            currentEntry.data("entryHeight", height);
+            currentEntry.css('max-height', "200px");
+        }
+    </script>
+
+
 {% else %}
     <div>
         <p>No Content found! Komm später wieder. Bitte ....</p>
@@ -23,15 +41,21 @@
 {% endfor %}
 
 <script>
+
     $(".blog-card-fab2").on("click", function() {
+        var selectedEntry = $(this).parent().find('.blog-content');
         $(this).toggleClass("open");
         if ($(this).hasClass("open")) {
-            $('.blog-content').css('max-height', "100%");
+            $('.blog-content').css('max-height', selectedEntry.data("entryHeight"));
             $(this).children().removeClass("fa-arrow-down").addClass("fa-arrow-up");
 
         } else {
             $('.blog-content').css('max-height', '200px');
             $(this).children().removeClass("fa-arrow-up").addClass("fa-arrow-down");
+
+            $('html, body').animate({
+                scrollTop: $(this).parent().offset().top -130
+            }, 500);
         }
     });
 </script>

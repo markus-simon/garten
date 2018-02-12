@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity
  * @ORM\Table(name="manufacturer")
  */
-class Manufacturer
+class Manufacturer extends Base
 {
     /**
      * @ORM\Column(type="integer")
