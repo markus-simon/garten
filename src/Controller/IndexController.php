@@ -48,6 +48,9 @@ class IndexController extends Controller
         if ($type == "modal") {
             $action = $action . "/form";
         }
+        if ($type == "delete") {
+            $action = $action . "/delete";
+        }
         $template       = $templateFolder . DIRECTORY_SEPARATOR . $action . '.html.twig';
         if (file_exists($template) && $action != '404') {
             $html = $this->render($action . '.html.twig', $this->getResponse($action, $type, $id));
@@ -92,32 +95,37 @@ class IndexController extends Controller
         $formType = "App\Form\\" . ucfirst($type);
         $entity = new $entityType;
 
-        $form = $this->createForm($formType, $entity);
-        $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
-            $file = $entity->getImage();
-            if (!$file) {
-                $file = $request->request->get('cms')['uploadedImage'];
-            } else {
-                $fileName = $this->generateUniqueFileName($file);
-                $file->move(
-                    $this->getParameter('images_directory'),
-                    $fileName
-                );
-                $entity->setImage($fileName);
-            }
-            $this->handleSaveRequest($entity);
+        if (isset($request->request->all()[$type]['delete'])) {
+            $entity->setId($request->request->all()[$type]['id']);
+            $this->handleDeleteRequest($entity);
         } else {
-            $errors = $form->getErrors(true);
-            foreach ($errors as $error) {
-                $this->addFlash(
-                    'error',
-                    $error->getMessage()
-                );
+            $form = $this->createForm($formType, $entity);
+            $form->handleRequest($request);
+            if ($form->isSubmitted() && $form->isValid()) {
+                $file = $entity->getImage();
+                if (!$file) {
+                    $file = $request->request->get('cms')['uploadedImage'];
+                } else {
+                    $fileName = $this->generateUniqueFileName($file);
+                    $file->move(
+                        $this->getParameter('images_directory'),
+                        $fileName
+                    );
+                    $entity->setImage($fileName);
+                }
+                $this->handleSaveRequest($entity);
+            } else {
+                $errors = $form->getErrors(true);
+                foreach ($errors as $error) {
+                    $this->addFlash(
+                        'error',
+                        $error->getMessage()
+                    );
+                }
             }
         }
-        $content  = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME, "full"));
-        $flash    = $this->render('flash.html.twig');
+        $content = $this->render($type . '.html.twig', $this->getResponse($entity::ENTITY_NAME, "full"));
+        $flash = $this->render('flash.html.twig');
         return new Response($content->getContent() . $flash->getContent());
     }
 
@@ -152,6 +160,29 @@ class IndexController extends Controller
         }
     }
 
+
+    /**
+     * @param $entity
+     */
+    public function handleDeleteRequest($entity)
+    {
+        try {
+            $em = $this->getDoctrine()->getManager();
+            $entry = $em->getRepository(get_class($entity))->find($entity->getId());
+            $em->remove($entry);
+            $em->flush();
+            $this->addFlash(
+                'notice',
+                'Deleted!'
+            );
+        } catch (\Exception $e) {
+            $this->addFlash(
+                'error',
+                $e->getMessage()
+            );
+        }
+    }
+
     /**
      * @param $action
      * @param $type
@@ -164,9 +195,10 @@ class IndexController extends Controller
         switch($action) {
             case Entity\Cms::ENTITY_NAME:
             case Entity\Cms::ENTITY_NAME . "/form":
+            case Entity\Cms::ENTITY_NAME . "/delete":
                 if ($type == "full") {
                     $response["data"] = $this->em->getRepository(Entity\Cms::class)->findBy([], ["id" => "desc"]);
-                } else {
+                } else if ($type == "modal") {
                     $entity = $this->em->getRepository(Entity\Cms::class)->find($id);
                     if ($entity && $entity->getImage()) {
                         $uploadedImage = '/images/' . $entity->getImage();
@@ -175,6 +207,8 @@ class IndexController extends Controller
                     }
                     $form             = $this->createForm(Form\Cms::class, $entity, array('action' => "save"));
                     $response["form"] = $form->createView();
+                } else {
+                    $response = [];
                 }
                 break;
             case "map":

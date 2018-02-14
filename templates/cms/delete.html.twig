@@ -1,0 +1,33 @@
+<script>
+    $(function() {
+        var popup = new Foundation.Reveal($('#animatedModalForm'));
+        popup.open();
+
+        $(".no").on("click", function(e) {
+            popup.close();
+        });
+
+        $(".yes").on("click", function(e) {
+            $.ajax({
+                type: 'post',
+                url: 'save',
+                data: {"cms":{"delete":true, "id":id}},
+                success: function(result) {
+                    $('#content').html(result);
+                    popup.close();
+                }
+            });
+        });
+    });
+</script>
+
+<div class="reveal" id="animatedModalForm" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+    <div class="flash-notice">
+        <p>Bist du dir wirklich, wirklich sicher?</p>
+        <a data-type="full" data-url="cms" href="#" class="button yes">Yes</a>
+        <a href="#" class="button no">No</a>
+    </div>
+    <button class="close-button" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>

@@ -15,7 +15,7 @@ class Base
     }
 
     /**
-     * @return bool
+     * @return array $data
      */
     public function getData()
     {

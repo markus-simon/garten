@@ -1,6 +1,6 @@
 {% block javascripts %}
     <script>
-
+        var id;
         $(document).on("click", ".burger", function() {
             $(this).toggleClass('open');
             $(this).data("toggle", "offCanvasLeftPush");
@@ -8,7 +8,7 @@
 
         $(document).on("click", ".off-canvas a, #head a, .blog-actions a", function() {
             var target = $(this).data("url");
-            var id     = $(this).data("id") || null;
+            id     = $(this).data("id") || null;
             if (target) {
                 var type = $(this).data("type");
                 $.ajax({
@@ -16,7 +16,7 @@
                         if (type === "full") {
                             $("#content").html(result);
                             $("#add").data("url", target);
-                        } else if (type === "modal") {
+                        } else if (type === "modal" || type === "delete") {
                             $("#modal").html(result);
                         }
                     }
@@ -44,7 +44,10 @@
             <ul class="menu header-nav align-right">
                 {% if is_granted('ROLE_ADMIN') == true %}
                     <li id="action-button" class="menu-text text-right">
+{#
                         <a data-type="offcanvas" data-toggle="offCanvasRightPush" href="#">Actions</a>
+#}
+                        <a id="add" data-type="modal" data-url="cms" href="#">Add</a>
                     </li>
                 {% endif %}
                 <li class="menu-text text-right">
@@ -59,13 +62,11 @@
         </div>
     </div>
 
-    <div class="off-canvas position-right" id="offCanvasRightPush" data-off-canvas data-transition="push">
+{#    <div class="off-canvas position-right" id="offCanvasRightPush" data-off-canvas data-transition="push">
         <ul class="vertical menu">
             <li class="menu-text"><a id="add" data-type="modal" data-url="cms" href="#">Add</a></li>
-{#            <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Edit</a></li>
-            <li class="menu-text"><a data-type="modal" data-url="cms" href="#">Delete</a></li>#}
         </ul>
-    </div>
+    </div>#}
 
     <div class="off-canvas position-left" id="offCanvasLeftPush" data-off-canvas data-transition="push">
         <ul class="vertical menu">
