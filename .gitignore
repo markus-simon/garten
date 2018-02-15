@@ -2,4 +2,5 @@
 ###> symfony/framework-bundle ###
 .env
 /var/
+/public/images
 ###< symfony/framework-bundle ###

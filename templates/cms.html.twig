@@ -1,10 +1,9 @@
+
 {% for entry in data %}
     <div id="blog-id-{{ entry.id }}" class="blog-post">
         <div class="grid-container">
             <div class="grid-x grid-margin-x blog-card2">
-                <div class="cell large-5 large-offset-1 blog-card-thumbnail2">
-                    <img src="{{ asset('images') }}/{{entry.image}}" />
-                </div>
+                <div class="cell large-5 large-offset-1 blog-card-thumbnail2" style="background-position:center center; background-size:cover; background-image:url('/images/{{entry.image}}')"></div>
                 <div class="cell large-6 blog-card-right2">
                     <h1 class="title">{{ entry.title }}</h1>
                     <div class="blog-card-separator"></div>
@@ -23,6 +22,13 @@
 
 
     <script>
+
+        var imageDiv = $(".blog-card-thumbnail2");
+        var imageHeight = imageDiv.width() / 4 * 3;
+        imageDiv.css("height", imageHeight + "px");
+
+
+
         var currentEntry = $("#blog-id-{{ entry.id }}").find(".blog-content");
         var height = currentEntry.height();
         if (height <= 260) {
@@ -37,6 +43,7 @@
         <p>No Content found! Komm später wieder. Bitte ....</p>
     </div>
 {% endfor %}
+
 
 <script>
 

@@ -32,6 +32,10 @@ class Cms extends Base
 
     /**
      * @ORM\Column(type="string", nullable=true)
+     * @Assert\Image(
+     *     maxSize = "10240k",
+     *     mimeTypesMessage = "Please upload a valid Image"
+     * )
      */
     public $image;
 
@@ -126,18 +130,18 @@ class Cms extends Base
     /**
      * @return mixed
      */
-    public function getUsername()
+    public function getUser()
     {
-        return $this->username;
+        return $this->user;
     }
 
     /**
-     * @param mixed $username
+     * @param mixed $user
      * @return Cms
      */
-    public function setUsername($username)
+    public function setUser($user)
     {
-        $this->username = $username;
+        $this->user = $user;
         return $this;
     }
 

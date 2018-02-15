@@ -1,14 +1,17 @@
 <script>
     $(function() {
         var popup = new Foundation.Reveal($('#animatedModalForm'));
-        popup.open();
+        popup.open()
+        for(name in CKEDITOR.instances) {
+            CKEDITOR.instances[name].destroy(true);
+        }
         if (!CKEDITOR.instances['cms_content']) {
             CKEDITOR.replace("cms[content]");
         }
-        $("form[name='cms']").on("submit", function(e) {
+        $("form[name='cms']").submit(function (e) {
             e.preventDefault();
             $("#cms_user").val(3);
-            $("#cms_uploadedImage").val($("#uploaded-image").attr("src"));
+            $("#cms_uploadedImage").val($("#uploaded-image").data("filename"));
             $("#cms_content").html(CKEDITOR.instances['cms_content'].getData());
             var formData = new FormData($(this)[0]);
             var target = $(this).attr('action');
@@ -19,7 +22,7 @@
                 cache: false,
                 contentType: false,
                 processData: false,
-                success: function(result) {
+                success: function (result) {
                     $('#content').html(result);
                     popup.close();
                     $("#action-button a").data("toggle", "offCanvasRightPush");
@@ -39,7 +42,7 @@
                 </div>
                 <div class="cell small-6">
                     {% if uploadedImage is defined %}
-                        <img id="uploaded-image" src="{{ url('index')~uploadedImage}}" />
+                        <img id="uploaded-image" data-filename="{{ uploadedImage }}" src="{{ url('index')~'/images/'~uploadedImage}}" />
                     {% endif %}
                 </div>
             </div>

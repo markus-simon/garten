@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Monolog\Logger;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
@@ -13,17 +14,20 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\File\File;
 use App\Entity;
 use App\Form;
+use Psr\Log\LoggerInterface;
 
 
 class IndexController extends Controller
 {
-    public $dispatcher;
     public $em;
+    public $dispatcher;
+    public $logger;
 
-    public function __construct(EventDispatcherInterface $dispatcher, EntityManagerInterface $em)
+    public function __construct(EventDispatcherInterface $dispatcher, EntityManagerInterface $em, LoggerInterface $logger)
     {
-        $this->em = $em;
+        $this->em         = $em;
         $this->dispatcher = $dispatcher;
+        $this->logger     = $logger;
     }
 
     /**
@@ -31,6 +35,7 @@ class IndexController extends Controller
      */
     public function index()
     {
+/*        $this->logger->critical('I just got the logger', array("mime"=>"ddddddd"));*/
         return $this->render('base.html.twig', $this->getResponse(Entity\Cms::ENTITY_NAME, "full"));
     }
 
@@ -102,9 +107,12 @@ class IndexController extends Controller
             $form = $this->createForm($formType, $entity);
             $form->handleRequest($request);
             if ($form->isSubmitted() && $form->isValid()) {
+                $this->logger->critical('I just got the logger',array("entity" => get_object_vars($entity)));
                 $file = $entity->getImage();
                 if (!$file) {
                     $file = $request->request->get('cms')['uploadedImage'];
+                    $entity->setImage($file);
+
                 } else {
                     $fileName = $this->generateUniqueFileName($file);
                     $file->move(
@@ -201,7 +209,7 @@ class IndexController extends Controller
                 } else if ($type == "modal") {
                     $entity = $this->em->getRepository(Entity\Cms::class)->find($id);
                     if ($entity && $entity->getImage()) {
-                        $uploadedImage = '/images/' . $entity->getImage();
+                        $uploadedImage = $entity->getImage();
                         $entity->setImage(new File($this->getParameter('images_directory') . '/' . $entity->getImage()));
                         $response["uploadedImage"] = $uploadedImage;
                     }
@@ -252,6 +260,7 @@ class IndexController extends Controller
      */
     private function generateUniqueFileName(UploadedFile $file)
     {
+        $this->logger->critical('I just got the logger', array("mime"=>$file->getMimeType()));
         return md5(uniqid()).'.'.$file->guessExtension();
     }
 }

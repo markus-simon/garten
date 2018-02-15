@@ -92,10 +92,6 @@ textarea {
 
 body {
     font-family: "Roboto", sans-serif;
-    background-image: url(../images/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 a {
@@ -114,10 +110,13 @@ a {
     -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
 }
+
 .blog-card-thumbnail2 {
     position: relative;
     top: -30px;
-    height: 320px!important;
+    /*
+    height: calc(100% - 1.25rem);!*320px!important;*!
+    */
     -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);

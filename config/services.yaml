@@ -51,3 +51,9 @@ services:
     App\Service\FileUploader:
         arguments:
             $targetDir: '%images_directory%'
+
+#    App\Listener\ImageUploadListener:
+#        arguments:
+#            $targetDir: '%images_directory%'
+#        tags:
+#            - { name: doctrine.event_listener, event: postLoad }
